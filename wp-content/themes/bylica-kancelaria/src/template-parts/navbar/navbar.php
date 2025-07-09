@@ -101,7 +101,7 @@
                     <a class="nav-link" href="<?php echo get_permalink(52); ?>">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(14); ?>">Kontakt</a>
+                    <a class="nav-link" href="<?php echo get_permalink(8); ?>">Kontakt</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-cta" href="<?php echo get_permalink(55); ?>">
