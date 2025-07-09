@@ -137,7 +137,7 @@ function task_watch() {
 
 function task_watch_reload() {
   browserSyncInstance.init({
-    proxy: 'your-local-url.example',
+    proxy: 'bylica-kancelaria.test',
     open: 'external',
   });
 
