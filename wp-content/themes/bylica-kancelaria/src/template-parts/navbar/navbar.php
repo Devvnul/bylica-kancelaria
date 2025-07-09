@@ -28,7 +28,7 @@
                     <div class="dropdown">
                         <button class="navbar__dropdown-button dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Oferta
+                            Zakres Usług Prawnych
                         </button>
                         <ul class="dropdown-menu">
                             <li>
@@ -93,12 +93,6 @@
                             </li>
                         </ul>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(8); ?>">Kariera</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(52); ?>">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo get_permalink(8); ?>">Kontakt</a>
