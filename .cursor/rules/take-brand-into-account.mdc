@@ -1,0 +1,9 @@
+---
+alwaysApply: true
+---
+
+Zawsze używaj kolorów marki, które są dostępne w pliku variables.csss
+Zawsze stosuj fonty i style nagłówków dostepne w pliku fonts-utility.scss
+
+
+
