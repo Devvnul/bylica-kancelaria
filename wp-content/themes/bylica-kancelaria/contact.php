@@ -2,8 +2,8 @@
 
 <?php get_header(); ?>
 
-<h1>
-    Welcome in Contact page template!
-</h1>
+<?php
+get_template_part('src/template-parts/contact/contact');
+?>
 
 <?php get_footer(); ?>
