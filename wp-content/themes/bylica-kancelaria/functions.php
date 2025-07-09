@@ -22,6 +22,7 @@ function load_scripts()
 {
     wp_enqueue_script('jquery');
 
+    wp_enqueue_script('lenis', get_theme_file_uri('/node_modules/lenis/dist/lenis.min.js'));
     wp_enqueue_script('all-scripts', get_theme_file_uri('/dist/js/all.min.js'));
-    wp_enqueue_script('bootstrap-scripts', get_theme_file_uri('/node_modules/bootstrap/dist/js/bootstrap.min.js'));
+    wp_enqueue_script('bootstrap-scripts', get_theme_file_uri('/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'));
 }
