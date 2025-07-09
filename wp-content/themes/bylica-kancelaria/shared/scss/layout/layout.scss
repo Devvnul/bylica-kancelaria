@@ -1,0 +1,55 @@
+@import '../bootstrap-breakpoints.scss';
+
+:root {
+  --var__layout-page-padding-top: 103px;
+  --var__layout-page-padding-bottom: 30px;
+  --var__layout-section-padding-top: 80px;
+  --var__layout-section-padding-bottom: 80px;
+
+  --var__layout-page-padding-top-mobile: 80px;
+}
+
+.layout {
+  &__page {
+    padding-top: var(--var__layout-page-padding-top);
+    padding-bottom: var(--var__layout-page-padding-bottom);
+
+    @media (max-width: $media-lg) {
+      padding-top: var(--var__layout-page-padding-top-mobile);
+    }
+  }
+
+  &__section {
+    padding-top: var(--var__layout-section-padding-top);
+    padding-bottom: var(--var__layout-section-padding-bottom);
+
+    &--start {
+      padding-top: calc(var(--var__layout-section-padding-top) * 2);
+    }
+
+    &--end {
+      padding-bottom: calc(var(--var__layout-section-padding-bottom) * 2);
+    }
+  }
+}
+
+@media (max-width: $media-lg) {
+  :root {
+    --var__layout-section-padding-top: 70px;
+    --var__layout-section-padding-bottom: 70px;
+  }
+}
+
+@media (max-width: $media-md) {
+  :root {
+    --var__layout-section-padding-top: 55px;
+    --var__layout-section-padding-bottom: 55px;
+  }
+}
+
+@media (max-width: $media-sm) {
+  :root {
+    --var__layout-section-padding-top: 45px;
+    --var__layout-section-padding-bottom: 45px;
+  }
+}

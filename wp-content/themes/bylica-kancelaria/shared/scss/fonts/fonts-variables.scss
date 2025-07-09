@@ -1,0 +1,46 @@
+:root {
+  // ----------------------------------------
+  // Fonts
+  // ----------------------------------------
+  --font-family-body: 'DM Sans', sans-serif;
+  --font-family-heading: 'Cormorant Garamond', serif;
+
+  // ----------------------------------------
+  // Typescale multiplier
+  // ----------------------------------------
+  --type-scale: 1.2;
+
+  // ----------------------------------------
+  // Font sizes
+  // ----------------------------------------
+  --font-size-root: 16px;
+  --font-size-h1: calc(var(--font-size-h2) * var(--type-scale));
+  --font-size-h2: calc(var(--font-size-h3) * var(--type-scale));
+  --font-size-h3: calc(var(--font-size-h4) * var(--type-scale));
+  --font-size-h4: calc(var(--font-size-h5) * var(--type-scale));
+  --font-size-h5: calc(var(--font-size-h6) * var(--type-scale));
+  --font-size-h6: calc(var(--font-size-p) * var(--type-scale));
+  --font-size-p: 1rem;
+  --font-size-small: calc(var(--font-size-p) / var(--type-scale));
+  --font-size-tiny: 12px;
+
+  // ----------------------------------------
+  // Line heights
+  // ----------------------------------------
+  --line-height-body: 1.5;
+  --line-height-heading: 1.2;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --type-scale: 1.175;
+    --line-height-heading: 1.15;
+  }
+}
+
+@media (max-width: 575px) {
+  :root {
+    --type-scale: 1.15;
+    --line-height-heading: 1.1;
+  }
+}
