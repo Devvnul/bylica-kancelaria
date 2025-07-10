@@ -8,7 +8,6 @@
         <?php bloginfo('name'); ?>
     </title>
 
-    <!-- PROSPHER ICONS -->
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/thin/style.css" />
 
     <!-- FONTS -->
