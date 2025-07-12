@@ -41,8 +41,6 @@
                                             </h4>
                                             <div class="contact-page__office-hours">
                                                 <div>Poniedziałek - Piątek: <strong>9:00 - 17:00</strong></div>
-                                                <div>Sobota: <strong>9:00 - 13:00</strong> (po umówieniu)</div>
-                                                <div>Niedziela: <strong>Zamknięte</strong></div>
                                             </div>
                                         </div>
                                     </div>
@@ -92,10 +90,6 @@
                         <div class="contact-page__advisor-info">
                             <h4 class="contact-page__advisor-name">Tomasz Bylica</h4>
                             <p class="contact-page__advisor-title">Radca Prawny</p>
-                            <div class="contact-page__advisor-experience">
-                                <i class="ph-thin ph-phone me-1"></i>
-                                <span>Dostępny: Pon-Pt 9:00-17:00</span>
-                            </div>
                         </div>
                     </div>
 
@@ -131,10 +125,6 @@
                         <div class="contact-page__advisor-info">
                             <h4 class="contact-page__advisor-name">Anna Bylica</h4>
                             <p class="contact-page__advisor-title">Radca Prawny</p>
-                            <div class="contact-page__advisor-experience">
-                                <i class="ph-thin ph-phone me-1"></i>
-                                <span>Dostępna: Pon-Pt 9:00-17:00, Sob 9:00-13:00</span>
-                            </div>
                         </div>
                     </div>
 
@@ -257,8 +247,7 @@
             "availableLanguage": "Polish"
         },
         "openingHours": [
-            "Mo-Fr 09:00-17:00",
-            "Sa 09:00-13:00"
+            "Mo-Fr 09:00-17:00"
         ],
         "founder": [{
                 "@type": "Person",
