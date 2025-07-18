@@ -4,7 +4,7 @@
             <div class="col-6">
                 <div class="why-us__images">
                     <img class="why-us__wax-seal"
-                        src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/wax.png" alt="">
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/wax3.png" alt="">
 
                     <div class="why-us__column">
                         <img class="why-us__image-1"
@@ -24,7 +24,8 @@
             </div>
             <div class="col-6">
                 <div class="why-us__content-wrapper">
-                    <h1 class="h2">
+                    <h1 class="h2 h__eyebrow">
+                        <span>O nas</span>
                         Rozumiemy więcej niż tylko przepisy
                     </h1>
                     <p class="why-us__text">
