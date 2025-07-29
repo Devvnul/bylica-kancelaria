@@ -16,7 +16,7 @@
             </p>
 
             <span class="services__item-more" href="#">
-                Poznaj szczegóły
+                Zobacz więcej
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
@@ -37,7 +37,7 @@
             </p>
 
             <span class="services__item-more" href="#">
-                Poznaj szczegóły
+                Zobacz więcej
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
@@ -58,7 +58,7 @@
             </p>
 
             <span class="services__item-more" href="#">
-                Poznaj szczegóły
+                Zobacz więcej
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
@@ -79,7 +79,7 @@
             </p>
 
             <span class="services__item-more" href="#">
-                Poznaj szczegóły
+                Zobacz więcej
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
@@ -101,7 +101,7 @@
             </p>
 
             <span class="services__item-more" href="#">
-                Poznaj szczegóły
+                Zobacz więcej
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
@@ -122,7 +122,7 @@
             </p>
 
             <span class="services__item-more" href="#">
-                Poznaj szczegóły
+                Zobacz więcej
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 

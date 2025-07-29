@@ -13,14 +13,14 @@
   // ----------------------------------------
   // Font sizes
   // ----------------------------------------
-  --font-size-root: 16px;
+  --font-size-root: 15px;
   --font-size-h1: calc(var(--font-size-h2) * var(--type-scale));
   --font-size-h2: calc(var(--font-size-h3) * var(--type-scale));
   --font-size-h3: calc(var(--font-size-h4) * var(--type-scale));
   --font-size-h4: calc(var(--font-size-h5) * var(--type-scale));
   --font-size-h5: calc(var(--font-size-h6) * var(--type-scale));
   --font-size-h6: calc(var(--font-size-p) * var(--type-scale));
-  --font-size-p: 1rem;
+  --font-size-p: 16px;
   --font-size-small: calc(var(--font-size-p) / var(--type-scale));
   --font-size-tiny: 12px;
 
