@@ -41,20 +41,20 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header">
+                    <h2 class="h2 about__character-header about__cv-bullet">
                         <i class="ph-thin ph-gavel"></i>
                         Specjalizacje
                     </h2>
                     <ul class="about__character-specializations">
-                        <li class="about__character-specialization">Prawo cywilne</li>
-                        <li class="about__character-specialization">Prawo gospodarcze</li>
-                        <li class="about__character-specialization">Prawo administracyjne</li>
-                        <li class="about__character-specialization">Prawo podatkowe</li>
+                        <li>Prawo cywilne</li>
+                        <li>Prawo gospodarcze</li>
+                        <li>Prawo administracyjne</li>
+                        <li>Prawo podatkowe</li>
                     </ul>
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header">
+                    <h2 class="h2 about__character-header about__cv-bullet">
                         <i class="ph-thin ph-graduation-cap"></i>
                         Wykształcenie
                     </h2>
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header">
+                    <h2 class="h2 about__character-header about__cv-bullet">
                         <i class="ph-thin ph-briefcase"></i>
                         Doświadczenie
                     </h2>

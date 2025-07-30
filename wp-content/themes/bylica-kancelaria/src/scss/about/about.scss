@@ -53,6 +53,7 @@
 
         .about__character-basic {
           flex: 1 1 100%;
+          justify-content: center;
         }
       }
     }
@@ -118,11 +119,33 @@
       align-items: center;
       justify-content: flex-start;
       gap: 12px;
-      position: relative;
 
       & > i {
         // display: none;
+        position: absolute;
+        font-size: 115px;
+        right: 0;
+        top: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        width: fit-content;
+        color: var(--var__light-brown);
+        opacity: 0.1;
       }
+    }
+
+    &__character-bio {
+      text-align: justify;
+      margin-bottom: 64px;
+    }
+
+    &__character-specializations {
+      padding-left: 22px;
+      list-style: circle;
+    }
+
+    &__cv-bullet {
+      position: relative;
 
       &::after {
         content: '';
@@ -134,7 +157,7 @@
         height: 15px;
         width: 26px;
         left: -42px;
-        top: 15px;
+        top: 17px;
       }
     }
 
