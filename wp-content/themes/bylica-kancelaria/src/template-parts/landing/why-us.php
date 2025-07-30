@@ -1,4 +1,4 @@
-<div class="why-us layout__section mt-5">
+<div class="why-us layout__section">
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -8,16 +8,17 @@
 
                     <div class="why-us__column">
                         <img class="why-us__image-1"
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/testt.png" alt="">
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/scales.png" alt="">
                     </div>
                     <div class="why-us__column">
                         <div>
                             <img class="why-us__image-2"
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/test.png" alt="">
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/hand.png" alt="">
                         </div>
                         <div>
                             <img class="why-us__image-3"
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/test.png" alt="">
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/gavel.png"
+                                alt="">
                         </div>
                     </div>
                 </div>

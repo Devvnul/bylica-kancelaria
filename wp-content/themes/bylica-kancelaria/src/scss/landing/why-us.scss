@@ -1,5 +1,7 @@
 .landing-page {
   & .why-us {
+    background-color: #f6f6f6;
+
     &__images {
       display: flex;
       flex-direction: row;
@@ -20,7 +22,8 @@
 
     &__wax-seal {
       position: absolute;
-      width: 21%;
+      width: 25%;
+      opacity: 0.99;
       height: auto;
       left: 0;
       right: 0;
@@ -31,6 +34,7 @@
       margin-top: auto;
       margin-bottom: auto;
       filter: drop-shadow(2px 4px 6px black);
+      z-index: 2;
     }
 
     $border-radius: 60px;
@@ -40,6 +44,8 @@
       border-bottom-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
       height: 100%;
+
+      filter: drop-shadow(-24px -24px 0px var(--var__dark-white));
     }
 
     &__image-2 {
