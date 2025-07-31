@@ -5,7 +5,7 @@
     position: relative;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 
     &__image {
       position: absolute;
@@ -39,7 +39,7 @@
       bottom: 0;
       z-index: 20;
       background-color: var(--var__medium-green);
-      opacity: 0.98;
+      // opacity: 0.98;
       z-index: 2;
     }
 
@@ -54,8 +54,36 @@
       bottom: 0;
       z-index: 20;
       background-color: var(--var__dark-brown);
-      opacity: 0.98;
+      // opacity: 0.98;
       z-index: 2;
+    }
+
+    // &__bottom {
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 0;
+    //   right: 0;
+    //   height: 10vh;
+    //   background-color: var(--var__dark-brown);
+    //   z-index: 6;
+    // }
+
+    &__text-wrapper {
+      color: #fff;
+      text-align: center;
+      z-index: 2;
+    }
+
+    &__tomasz-wrapper {
+      position: absolute;
+      top: 23vh;
+      right: 73vw;
+    }
+
+    &__anna-wrapper {
+      position: absolute;
+      top: 23vh;
+      left: 73vw;
     }
   }
 }
