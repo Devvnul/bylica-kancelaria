@@ -1,0 +1,18 @@
+$main-color: #351a11;
+$dark-white: #e3d9cf;
+$light-brown: #996633;
+$medium-green: #272d07;
+$dark-brown: #351a11;
+$light-gray: #dfe4eb;
+
+:root {
+  /* --var__main-color: #663300; */
+  --var__main-color: #{$main-color};
+  --var__dark-white: #{$dark-white};
+  --var__light-brown: #{$light-brown};
+  --var__medium-green: #{$medium-green};
+  --var__dark-brown: #{$dark-brown};
+  --var__light-gray: #{$light-gray};
+
+  --var__main-color-lighter-20: #{adjust-color($main-color, $lightness: +10%)};
+}
