@@ -3,9 +3,10 @@
     height: 100vh;
     width: 100%;
     position: relative;
-    // box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
     background: radial-gradient(circle, rgba(227, 217, 207, 1) 75%, rgba(189, 175, 160, 1) 100%);
     overflow: hidden;
+    // filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.1));
 
     &__image {
       position: absolute;
@@ -19,35 +20,61 @@
       filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
     }
 
+    &__color1 {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 50%;
+      height: 100%;
+      background-color: var(--var__dark-white);
+      z-index: 1;
+    }
+
+    &__color2 {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 50%;
+      height: 100%;
+      background-color: var(--var__dark-brown);
+      z-index: 1;
+    }
+
     &__content {
       position: absolute;
       left: 0;
-      right: 0;
+      right: 106px;
       margin-left: auto;
       width: fit-content;
       margin-right: auto;
-      bottom: 0;
-      margin-bottom: 65vh;
+      top: 9vh;
       text-align: center;
+      z-index: 2;
+      line-height: 20px;
 
       & > h1 {
         text-transform: uppercase;
         font-family: var(--font-family-body);
         font-weight: 900;
         font-size: 80px;
-        color: currentColor;
+        color: var(--var__dark-brown);
         margin: 0;
 
         & > span {
-          color: var(--var__main-color);
+          color: var(--var__dark-white);
+          padding-left: 24px;
         }
       }
 
       & > p {
-        font-size: 24px;
-        color: #a3a3a3;
+        font-size: 28px;
         font-weight: 200;
         margin: 0;
+        text-align: left;
+        color: var(--var__dark-brown);
+        width: fit-content;
+        padding-left: 78px;
+        text-transform: uppercase;
       }
     }
 
@@ -57,7 +84,7 @@
       height: calc(85vh - 103px);
       width: 90%;
       bottom: 0;
-      border: 32px solid rgba(255, 255, 255, 0.75);
+      // border: 32px solid rgba(255, 255, 255, 0.75);
       top: 76px;
       margin-top: auto;
       margin-bottom: auto;
@@ -67,44 +94,69 @@
       z-index: 6;
     }
 
+    $border-thickness: 28px;
+
+    &__border1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      border-top: 28px solid var(--var__dark-brown);
+      border-left: 28px solid var(--var__dark-brown);
+      border-bottom: 28px solid var(--var__dark-brown);
+
+      transition: 0.3s ease;
+    }
+
+    &__border2 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      border-top: 28px solid var(--var__dark-white);
+      border-right: 28px solid var(--var__dark-white);
+      border-bottom: 28px solid var(--var__dark-white);
+
+      transition: 0.3s ease;
+    }
+
     &__border-image {
       position: absolute;
-      width: 120px;
-      opacity: 0.4;
+      width: 52px;
+      // opacity: 0.4;
     }
 
     &__border-image-1 {
-      left: 15px;
-      bottom: 15px;
+      left: 37px;
+      bottom: 38px;
     }
 
     &__border-image-2 {
-      right: 15px;
-      bottom: 15px;
+      right: 37px;
+      bottom: 38px;
       transform: rotateY(180deg);
     }
 
     &__buttons-wrapper {
       display: flex;
       flex-direction: row;
-      gap: 232px;
-      bottom: -46px;
-      left: 56px;
+      gap: 200px;
+      bottom: -15px;
+      left: 40px;
       right: 0;
-      margin-left: auto;
-      margin-right: auto;
       align-items: center;
       justify-content: center;
       position: absolute;
     }
 
     &__button {
-      background-color: var(--var__main-color);
+      background-color: var(--var__dark-brown);
       color: #fff;
       text-decoration: none;
       padding: 16px 40px;
       display: flex;
-      width: -moz-fit-content;
       width: fit-content;
       min-width: 191px;
       align-items: center;
@@ -112,8 +164,6 @@
       text-align: center;
       font-size: 16px;
       font-weight: bold;
-      border-radius: 2px;
-      filter: drop-shadow(2px 4px 6px #000);
       text-transform: uppercase;
       display: flex;
       flex-direction: row;
@@ -121,8 +171,11 @@
       justify-content: center;
       gap: 12px;
 
+      // transition: background-color 0.3s ease, color 0.3s ease;
+
       &--secondary {
-        background-color: var(--var__medium-green);
+        background-color: var(--var__dark-white);
+        color: var(--var__dark-brown);
       }
 
       & > i {
