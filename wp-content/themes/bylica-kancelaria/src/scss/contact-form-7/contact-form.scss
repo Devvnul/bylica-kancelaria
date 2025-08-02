@@ -2,24 +2,36 @@
   background-color: transparent;
   padding: 0;
   position: relative;
+
+  &-spinner {
+    margin-top: -40px;
+    background-color: var(--var__main-color);
+  }
+
+  &-acceptance input[type="checkbox"] {
+    accent-color: var(--var__light-brown);
+
+    &:focus {
+      outline: 2px solid var(--var__light-brown);
+      outline-offset: 2px;
+    }
+  }
 }
 
 .contact-form {
   & .wpcf7-form-control-wrap {
     position: relative;
     display: block;
-    margin-bottom: 1.5rem;
   }
 
   & .wpcf7-form-control {
     width: 100%;
     padding: 1rem 1.25rem;
-    border: 2px solid var(--var__dark-white);
-    border-radius: 24px;
+    border: 2px solid var(--var__main-color);
     font-family: var(--font-family-body);
     font-size: 1rem;
     line-height: 1.5;
-    color: var(--var__dark-brown);
+    color: var(--var__main-color);
     background-color: white;
     transition: all 0.3s ease;
     position: relative;
@@ -31,13 +43,13 @@
     }
 
     &:focus {
-      border-color: var(--var__main-color);
+      color: var(--var__main-color);
       box-shadow: 0 0 0 3px rgba(102, 51, 0, 0.15);
       outline: 0;
     }
 
     &:hover {
-      border-color: var(--var__light-brown);
+      border-color: var(--var__main-color);
     }
   }
 
@@ -48,13 +60,12 @@
 
   & .files-label {
     font-weight: 600;
-    color: var(--var__main-color);
+    color: var(--var__dark-white);
     font-family: var(--font-family-heading);
     margin-bottom: 0.5rem;
 
     & input {
       border: 1px solid #ced4da;
-      border-radius: 4px;
       padding: 0.5rem;
       background-color: #fff;
     }
@@ -73,14 +84,14 @@
       
       & .wpcf7-list-item-label {
         font-family: var(--font-family-body);
-        color: var(--var__dark-brown);
+        color: var(--var__dark-white);
         margin: 0;
         line-height: 1.5;
         display: inline;
         font-size: 0.9rem;
         
         a {
-          color: var(--var__main-color);
+          color: var(--var__dark-white);
           text-decoration: none;
           
           &:hover {
@@ -91,7 +102,7 @@
     }
 
     & input.consent {
-      accent-color: var(--var__main-color);
+      color: var(--var__dark-white);
       transform: scale(1.2);
       cursor: pointer;
       margin: 0;
@@ -101,15 +112,12 @@
   }
 
   & .wpcf7-submit {
-    background-color: var(--var__main-color);
-    border-color: var(--var__main-color);
-    color: white;
+    text-transform: uppercase;
+    font-family: var(--font-family-body);
+    color: var(--var__dark-white);
     padding: 1rem 2.5rem;
     font-size: 1rem;
-    font-family: var(--font-family-heading);
     font-weight: 700;
-    border-radius: 50px;
-    border: 2px solid var(--var__main-color);
     cursor: pointer;
     transition: all 0.3s ease;
     width: 100%;
@@ -117,6 +125,8 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    background-color: var(--var__dark-white);
+    color: var(--var__main-color);
 
     &::after {
       content: "→";
@@ -124,10 +134,11 @@
     }
 
     &:hover {
-      background-color: var(--var__light-brown);
-      border-color: var(--var__light-brown);
+    background-color: var(--var__main-color);
       transform: translateY(-2px);
       box-shadow: 0 8px 20px rgba(102, 51, 0, 0.3);
+      color:  var(--var__dark-white);
+      border: 1px solid var(--var__dark-white);
     }
 
     &:focus {
@@ -136,9 +147,8 @@
     }
 
     &[disabled] {
-      background-color: var(--var__dark-brown);
-      border-color: var(--var__dark-brown);
-      color: rgba(255, 255, 255, 0.6);
+      background-color: var(--var__dark-white);
+      color: var(--var__main-color);
       opacity: 0.6;
       cursor: not-allowed;
       pointer-events: none;
@@ -146,30 +156,31 @@
     }
   }
 
+  & .wpcf7-spinner {
+    display: flex;
+  }
+
   & .wpcf7-response-output {
     margin: 1.5rem 0 0;
     padding: 1rem 1.25rem;
-    border-radius: 12px;
     font-family: var(--font-family-body);
     font-size: 0.95rem;
     line-height: 1.4;
 
     &.wpcf7-mail-sent-ok {
       background-color: var(--var__dark-white);
-      border: 2px solid var(--var__light-brown);
       color: var(--var__dark-brown);
     }
 
     &.wpcf7-validation-errors,
     &.wpcf7-mail-sent-ng {
       background-color: var(--var__dark-white);
-      border: 2px solid var(--var__main-color);
       color: var(--var__dark-brown);
     }
   }
 
   & .wpcf7-not-valid-tip {
-    color: var(--var__main-color);
+    color: var(--var__dark-white);
     font-size: 0.875rem;
     margin-top: 0.5rem;
     font-family: var(--font-family-body);
@@ -217,7 +228,7 @@
   .contact-form__row-1 {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 
     .contact-form__col {
       flex: 1;
@@ -232,7 +243,7 @@
   .contact-form__row-2 {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 
     .contact-form__col {
       flex: 1;
@@ -245,6 +256,6 @@
   }
 
   .contact-form__message {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
