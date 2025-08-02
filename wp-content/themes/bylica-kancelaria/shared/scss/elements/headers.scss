@@ -3,9 +3,14 @@
 
   & > span {
     display: block;
-    font-size: 0.6em;
-    font-weight: inherit;
-    color: var(--var__light-brown);
-    opacity: 0.75;
+    font-size: 0.55em;
+    color: inherit;
+    opacity: 0.4;
+    text-transform: uppercase;
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    transform: scaleY(0.9);
+    margin-bottom: -6px;
+    margin-left: 1px;
   }
 }

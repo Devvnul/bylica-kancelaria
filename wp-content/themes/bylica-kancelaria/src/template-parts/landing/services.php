@@ -1,5 +1,8 @@
 <div class="services layout__section">
-    <h1 class="h2 services__header">Czym się zajmujemy</h1>
+    <h1 class="h2 services__header h__eyebrow">
+        <span>Nasze specjalizacje</span>
+        Wiedza, doświadczenie, skuteczność
+    </h1>
 
     <div class="services__items-grid">
         <a href="<?php echo get_permalink(62); ?>" class="services__item">
