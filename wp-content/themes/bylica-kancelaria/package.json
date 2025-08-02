@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "bootstrap": "5.3.5",
+    "countup.js": "2.8.0",
     "lenis": "1.2.3"
   },
   "overrides": {

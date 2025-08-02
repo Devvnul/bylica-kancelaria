@@ -1,7 +1,9 @@
 .landing-page {
   & .contact {
-    background-color: var(--var__light-gray);
     position: relative;
+    background-color: var(--var__light-gray);
+    background-position: center;
+    background-size: cover;
 
     &__overlay {
       position: absolute;

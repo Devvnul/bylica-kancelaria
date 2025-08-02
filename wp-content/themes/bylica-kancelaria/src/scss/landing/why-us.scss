@@ -2,6 +2,10 @@
   & .why-us {
     background-color: #f6f6f6;
 
+    &__header {
+      color: var(--var__dark-brown);
+    }
+
     &__images {
       display: flex;
       flex-direction: row;
@@ -102,7 +106,7 @@
     &__cta {
       max-width: 200px;
       padding: 16px 24px;
-      background-color: var(--var__medium-green);
+      background-color: #4b2518;
       border-radius: 40px;
       text-align: center;
       text-decoration: none;

@@ -8,6 +8,10 @@
     ?>
 
     <?php
+    get_template_part('src/template-parts/landing/count');
+    ?>
+
+    <?php
     get_template_part('src/template-parts/landing/services');
     ?>
 

@@ -25,7 +25,7 @@
             </div>
             <div class="col-6">
                 <div class="why-us__content-wrapper">
-                    <h1 class="h2 h__eyebrow">
+                    <h1 class="why-us__header h2 h__eyebrow">
                         <span>O nas</span>
                         Rozumiemy więcej niż tylko przepisy
                     </h1>

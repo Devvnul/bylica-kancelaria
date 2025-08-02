@@ -130,13 +130,34 @@
 
     &__border-image-1 {
       left: 37px;
-      bottom: 38px;
+      top: 38px;
     }
 
     &__border-image-2 {
       right: 37px;
       bottom: 38px;
       transform: rotateY(180deg);
+    }
+
+    &__scales {
+      position: absolute;
+      right: 6vw;
+      z-index: 3;
+      mix-blend-mode: overlay;
+      opacity: 0.2;
+      height: 44vh;
+      margin-top: 84px;
+      top: 16%;
+    }
+
+    &__stamp {
+      position: absolute;
+      left: 6vw;
+      bottom: 12vh;
+      z-index: 3;
+      mix-blend-mode: color-burn;
+      opacity: 0.2;
+      height: 40vh;
     }
 
     &__buttons-wrapper {
