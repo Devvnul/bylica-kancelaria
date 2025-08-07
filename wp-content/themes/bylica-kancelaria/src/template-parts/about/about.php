@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header about__character-header--points">
+                    <h2 class="h3 about__character-header about__character-header--points">
                         <i class="ph-thin ph-gavel"></i>
                         Specjalizacje
                     </h2>
@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header about__character-header--points">
+                    <h2 class="h3 about__character-header about__character-header--points">
                         <i class="ph-thin ph-graduation-cap"></i>
                         Wykształcenie
                     </h2>
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header about__character-header--points">
+                    <h2 class="h3 about__character-header about__character-header--points">
                         <i class="ph-thin ph-briefcase"></i>
                         Doświadczenie
                     </h2>
@@ -108,7 +108,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header about__character-header--points">
+                    <h2 class="h3 about__character-header about__character-header--points">
                         <i class="ph-thin ph-envelope"></i>
                         Kontakt
                     </h2>
@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header about__character-header--points">
+                    <h2 class="h3 about__character-header about__character-header--points">
                         <i class="ph-thin ph-gavel"></i>
                         Specjalizacje
                     </h2>
@@ -175,7 +175,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header about__character-header--points">
+                    <h2 class="h3 about__character-header about__character-header--points">
                         <i class="ph-thin ph-graduation-cap"></i>
                         Wykształcenie
                     </h2>
@@ -200,7 +200,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header about__character-header--points">
+                    <h2 class="h3 about__character-header about__character-header--points">
                         <i class="ph-thin ph-briefcase"></i>
                         Doświadczenie
                     </h2>
@@ -224,7 +224,7 @@
                 </div>
 
                 <div class="about__character-section">
-                    <h2 class="h2 about__character-header about__character-header--points">
+                    <h2 class="h3 about__character-header about__character-header--points">
                         <i class="ph-thin ph-envelope"></i>
                         Kontakt
                     </h2>
