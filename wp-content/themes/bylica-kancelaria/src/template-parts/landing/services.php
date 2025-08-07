@@ -5,7 +5,7 @@
     </h1>
 
     <div class="services__items-grid">
-        <a href="<?php echo get_permalink(62); ?>" class="services__item">
+        <a href="<?php echo get_permalink(32); ?>" class="services__item">
             <i class="service__item-icon ph-thin ph-shield-check"></i>
 
             <h2 class="h4 services__item-header">

@@ -19,8 +19,15 @@
       width: 50%;
       gap: 24px;
 
+      $sepiaAmount: 0.1;
+
       & img {
         width: 100%;
+        filter: sepia($sepiaAmount);
+      }
+
+      & img.why-us__image-1 {
+        filter: sepia($sepiaAmount) drop-shadow(-24px -24px 0px var(--var__dark-white));
       }
     }
 
@@ -48,8 +55,6 @@
       border-bottom-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
       height: 100%;
-
-      filter: drop-shadow(-24px -24px 0px var(--var__dark-white));
     }
 
     &__image-2 {

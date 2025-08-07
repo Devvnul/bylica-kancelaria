@@ -32,7 +32,7 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<?php echo get_permalink(32); ?>">
                                     <i class="ph-fill ph-caret-right"></i>
                                     Pełna obsługa firm
                                 </a>
@@ -65,30 +65,6 @@
                                 <a class="dropdown-item" href="#">
                                     <i class="ph-fill ph-caret-right"></i>
                                     Kadry i płace
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="ph-fill ph-caret-right"></i>
-                                    Zakładanie firmy
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="ph-fill ph-caret-right"></i>
-                                    Rozliczenia z ZUS
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="ph-fill ph-caret-right"></i>
-                                    Rozliczenia zagraniczne
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="ph-fill ph-caret-right"></i>
-                                    Doradztwo podatkowe
                                 </a>
                             </li>
                         </ul>
