@@ -119,6 +119,10 @@
 
     &__contact-content {
       flex: 0 0 55%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
     &__contact-header {
@@ -182,7 +186,7 @@
       right: -7vw;
       z-index: -1;
       opacity: 0.95;
-      height: 170%;
+      height: 661px;
 
       @media (max-width: $media-lg) {
         opacity: 0.3;

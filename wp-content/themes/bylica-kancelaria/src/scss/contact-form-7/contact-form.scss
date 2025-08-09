@@ -8,8 +8,8 @@
     background-color: var(--var__main-color);
   }
 
-  &-acceptance input[type="checkbox"] {
-    accent-color: var(--var__light-brown);
+  &-acceptance input[type='checkbox'] {
+    accent-color: var(--var__dark-white);
 
     &:focus {
       outline: 2px solid var(--var__light-brown);
@@ -26,7 +26,7 @@
 
   & .wpcf7-form-control {
     width: 100%;
-    padding: 1rem 1.25rem;
+    padding: 10px 12px;
     border: 2px solid var(--var__main-color);
     font-family: var(--font-family-body);
     font-size: 1rem;
@@ -35,11 +35,13 @@
     background-color: white;
     transition: all 0.3s ease;
     position: relative;
+    border-radius: 10px;
 
     &::placeholder {
-      color: var(--var__main-color);
-      font-weight: 400;
+      color: gray;
+      font-weight: 300;
       opacity: 0.7;
+      font-size: 15px;
     }
 
     &:focus {
@@ -75,13 +77,14 @@
     border: none;
     padding: 0;
     margin-bottom: 2rem;
+    left: 7px;
 
     & > .wpcf7-list-item {
       margin: 0;
       display: flex;
       align-items: flex-start;
       gap: 0.75rem;
-      
+
       & .wpcf7-list-item-label {
         font-family: var(--font-family-body);
         color: var(--var__dark-white);
@@ -89,11 +92,12 @@
         line-height: 1.5;
         display: inline;
         font-size: 0.9rem;
-        
+        padding-left: 12px;
+
         a {
           color: var(--var__dark-white);
           text-decoration: none;
-          
+
           &:hover {
             text-decoration: underline;
           }
@@ -108,6 +112,7 @@
       margin: 0;
       margin-top: 2px;
       flex-shrink: 0;
+      transform: scale(1.65);
     }
   }
 
@@ -129,16 +134,12 @@
     color: var(--var__main-color);
 
     &::after {
-      content: "→";
+      content: '→';
       font-size: 1.2rem;
     }
 
     &:hover {
-    background-color: var(--var__main-color);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(102, 51, 0, 0.3);
-      color:  var(--var__dark-white);
-      border: 1px solid var(--var__dark-white);
+      opacity: 0.8;
     }
 
     &:focus {
@@ -147,9 +148,8 @@
     }
 
     &[disabled] {
-      background-color: var(--var__dark-white);
-      color: var(--var__main-color);
-      opacity: 0.6;
+      background-color: darkgray;
+      color: gray;
       cursor: not-allowed;
       pointer-events: none;
       transform: none;
@@ -180,9 +180,8 @@
   }
 
   & .wpcf7-not-valid-tip {
-    color: var(--var__dark-white);
     font-size: 0.875rem;
-    margin-top: 0.5rem;
+    margin-top: 4px;
     font-family: var(--font-family-body);
     display: block;
 
@@ -213,10 +212,10 @@
     // Responsive - na mobile wszystkie pola pełna szerokość
     @media (max-width: 768px) {
       margin: 0;
-      
+
       .form-col {
         padding: 0;
-        
+
         &.form-col-half {
           flex: 0 0 100%;
         }

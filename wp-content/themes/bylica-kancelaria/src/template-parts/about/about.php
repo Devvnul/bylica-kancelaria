@@ -1,4 +1,4 @@
-<div class="about-page layout__page">
+<div class="about-page layout__page pb-0">
 
     <!-- <div class="about__select-wrapper">
         <div class="about__character-select about__select-1">

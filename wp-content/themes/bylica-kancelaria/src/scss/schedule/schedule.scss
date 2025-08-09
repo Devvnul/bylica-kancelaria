@@ -1,0 +1,30 @@
+@import '../../../shared/scss/bootstrap-breakpoints.scss';
+
+.schedule-page {
+  & .schedule {
+    min-height: 60vh;
+
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 16px;
+      color: var(--var__main-color);
+
+      & > i {
+        font-size: 60px;
+        color: var(--var__main-color);
+      }
+
+      @media (max-width: $media-lg) {
+        text-align: center;
+      }
+    }
+
+    &__description {
+      text-align: justify;
+      margin-top: 14px;
+    }
+  }
+}

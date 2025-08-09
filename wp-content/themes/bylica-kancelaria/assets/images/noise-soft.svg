@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" preserveAspectRatio="none">
+  <defs>
+    <filter id="noiseFilter" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="7" stitchTiles="stitch" result="noise"/>
+      <!-- Soften/adjust contrast of noise -->
+      <feComponentTransfer in="noise" result="noiseAdj">
+        <!-- Adjust these to control density/contrast -->
+        <feFuncA type="linear" slope="0.2" intercept="0.4"/>
+      </feComponentTransfer>
+      <!-- Move noise value into alpha channel only -->
+      <feColorMatrix in="noiseAdj" type="matrix" values="
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 1 0" result="alphaMap"/>
+      <!-- Apply the alpha map to a solid black fill -->
+      <feComposite in="SourceGraphic" in2="alphaMap" operator="in"/>
+    </filter>
+  </defs>
+  <!-- This rect provides the solid color that will be "cut" by the alphaMap above. Black is safest for overlaying; keep transparent elsewhere. -->
+  <rect width="100%" height="100%" fill="black" filter="url(#noiseFilter)"/>
+</svg>

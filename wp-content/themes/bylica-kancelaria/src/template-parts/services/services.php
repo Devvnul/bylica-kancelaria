@@ -79,23 +79,25 @@ if ($service_id_object):
                 <div class="col-12">
                     <div class="services__contact-wrapper">
                         <div class="services__contact-content">
-                            <h2 class="services__contact-header">Nie musisz walczyć sam.</h2>
+                            <h2 class="services__contact-header">Nie musisz działać sam.</h2>
                             <p class="services__contact-description mt-4 mb-5">
-                                Jeśli potrzebujesz pomocy w zakresie księgowości, podatków lub innych usług finansowych,
-                                skontaktuj się z nami. Jesteśmy tutaj, aby Ci pomóc.
+                                Oferujemy kompleksowe wsparcie w zakresie prawa, podatków oraz usług finansowych. Skontaktuj
+                                się z nami, aby uzyskać fachową pomoc dostosowaną do Twoich potrzeb.
                             </p>
 
-                            <a class="services__contact-cta"
-                                href="<?php echo get_permalink(get_page_by_path('kontakt')); ?>">
-                                Umów spotkanie
-                                <i class="ph-thin ph-caret-right"></i>
-                            </a>
+                            <div>
+                                <a class="services__contact-cta"
+                                    href="<?php echo get_permalink(get_page_by_path('kontakt')); ?>">
+                                    Umów spotkanie
+                                    <i class="ph-thin ph-caret-right"></i>
+                                </a>
 
-                            <a class="services__contact-cta"
-                                href="<?php echo get_permalink(get_page_by_path('kontakt')); ?>">
-                                Kontakt
-                                <i class="ph-thin ph-caret-right"></i>
-                            </a>
+                                <a class="services__contact-cta"
+                                    href="<?php echo get_permalink(get_page_by_path('kontakt')); ?>">
+                                    Kontakt
+                                    <i class="ph-thin ph-caret-right"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class="services__contact-image-wrapper">
                             <img class="services__contact-image"

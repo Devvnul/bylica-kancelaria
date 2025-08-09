@@ -73,11 +73,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo get_permalink(8); ?>">Kontakt</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link nav-cta" href="<?php echo get_permalink(55); ?>">
+                <li class="nav-item">
+                    <a class="nav-link nav-cta" href="<?php echo get_permalink(39); ?>">
                         Umów się
                     </a>
-                </li> -->
+                </li>
             </ul>
         </div>
     </div>
