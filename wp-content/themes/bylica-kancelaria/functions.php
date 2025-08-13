@@ -28,6 +28,12 @@ function load_scripts()
     wp_enqueue_script('bootstrap-scripts', get_theme_file_uri('/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'));
 }
 
+function bylica_title_separator($sep)
+{
+    return '|';
+}
+add_filter('document_title_separator', 'bylica_title_separator');
+
 function register_uslugi_cpt()
 {
     $labels = array(
