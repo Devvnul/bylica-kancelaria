@@ -16,7 +16,7 @@ if ($service_id_object):
 
         <div class="services__introduction-container">
             <img class="services__background-image"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/alternatywne/2.svg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo-alternative-white.svg"
                 alt="Bylica - Biuro Rachunkowe (Logo)" />
 
             <div class="container">
@@ -39,7 +39,9 @@ if ($service_id_object):
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <?php echo $thumbnail; ?>
+                        <div class="services__introduction-image-wrapper">
+                            <?php echo $thumbnail; ?>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,7 +103,7 @@ if ($service_id_object):
                         </div>
                         <div class="services__contact-image-wrapper">
                             <img class="services__contact-image"
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/services/contact.png"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/services/contact.webp"
                                 alt="" />
                         </div>
                     </div>
@@ -117,7 +119,8 @@ if ($service_id_object):
 
                     <div class="accordion services__faq-list" id="faqAccordion">
                         <img class="services__faq-background-image"
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/services/woman1.png" alt="" />
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/services/faq-woman.webp"
+                            alt="" />
 
                         <?php foreach ($faq_list as $index => $faq): ?>
                             <?php

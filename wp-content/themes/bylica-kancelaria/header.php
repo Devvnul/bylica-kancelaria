@@ -8,6 +8,13 @@
         <?php bloginfo('name'); ?>
     </title>
 
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96"
+        href="<?php echo get_template_directory_uri(); ?>/favicon-96x96.png">
+
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/thin/style.css" />
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 
