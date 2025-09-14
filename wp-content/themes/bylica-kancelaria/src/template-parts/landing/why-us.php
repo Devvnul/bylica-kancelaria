@@ -1,7 +1,7 @@
 <div class="why-us layout__section">
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-lg-6 order-2 order-lg-1 mt-4 pt-4 mt-sm-5 pt-sm-5 mt-lg-0 pt-lg-0">
                 <div class="why-us__images">
                     <img class="why-us__wax-seal"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/wax3.png" alt="">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="why-us__content-wrapper">
                     <h1 class="why-us__header h2 h__eyebrow">
                         <span>O nas</span>

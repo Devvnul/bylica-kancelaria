@@ -1,3 +1,5 @@
+@import '../../../shared/scss/bootstrap-breakpoints.scss';
+
 .landing-page {
   & .why-us {
     background-color: #f6f6f6;
@@ -11,6 +13,13 @@
       flex-direction: row;
       gap: 24px;
       position: relative;
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+
+      @media (max-width: $media-sm) {
+        gap: 3vw;
+      }
     }
 
     &__column {
@@ -21,6 +30,10 @@
 
       $sepiaAmount: 0.1;
 
+      @media (max-width: $media-sm) {
+        gap: 3vw;
+      }
+
       & img {
         width: 100%;
         filter: sepia($sepiaAmount);
@@ -28,6 +41,10 @@
 
       & img.why-us__image-1 {
         filter: sepia($sepiaAmount) drop-shadow(-24px -24px 0px var(--var__dark-white));
+
+        @media (max-width: $media-sm) {
+          filter: sepia($sepiaAmount) drop-shadow(-8px -12px 0px var(--var__dark-white));
+        }
       }
     }
 
@@ -49,24 +66,62 @@
     }
 
     $border-radius: 60px;
+    $vorder-radius-md: 40px;
+    $border-radius-sm: 20px;
 
     &__image-1 {
       border-top-left-radius: $border-radius;
       border-bottom-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
       height: 100%;
+
+      @media (max-width: $media-md) {
+        border-top-left-radius: $vorder-radius-md;
+        border-bottom-left-radius: $vorder-radius-md;
+        border-bottom-right-radius: $vorder-radius-md;
+      }
+
+      @media (max-width: $media-sm) {
+        border-top-left-radius: $border-radius-sm;
+        border-bottom-left-radius: $border-radius-sm;
+        border-bottom-right-radius: $border-radius-sm;
+      }
     }
 
     &__image-2 {
       border-top-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
       border-top-right-radius: $border-radius;
+
+      @media (max-width: $media-md) {
+        border-top-left-radius: $vorder-radius-md;
+        border-bottom-right-radius: $vorder-radius-md;
+        border-top-right-radius: $vorder-radius-md;
+      }
+
+      @media (max-width: $media-sm) {
+        border-top-left-radius: $border-radius-sm;
+        border-bottom-right-radius: $border-radius-sm;
+        border-top-right-radius: $border-radius-sm;
+      }
     }
 
     &__image-3 {
       border-bottom-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
       border-top-right-radius: $border-radius;
+
+      @media (max-width: $media-md) {
+        border-bottom-left-radius: $vorder-radius-md;
+        border-bottom-right-radius: $vorder-radius-md;
+        border-top-right-radius: $vorder-radius-md;
+      }
+
+      @media (max-width: $media-sm) {
+        border-bottom-left-radius: $border-radius-sm;
+        border-bottom-right-radius: $border-radius-sm;
+        border-top-right-radius: $border-radius-sm;
+      }
     }
 
     &__content-wrapper {
