@@ -10,8 +10,20 @@
   overflow: visible;
   position: relative;
 
-  @media (max-width: 1284px) {
+  @media (max-width: 1236px) {
     height: 1000px;
+  }
+
+  @media (max-width: 474px) {
+    height: 1440px;
+  }
+
+  @media (max-width: 388px) {
+    height: 1480px;
+  }
+
+  @media (max-width: 368px) {
+    height: 1520px;
   }
 
   &__quill {
@@ -88,6 +100,19 @@
     min-width: 280px;
     max-width: 300px;
     color: var(--var__dark-brown);
+
+    @media (max-width: 628px) {
+      min-width: 230px;
+    }
+
+    @media (max-width: 528px) {
+      min-width: initial;
+      flex: 0 0 calc(50% - 40px);
+    }
+
+    @media (max-width: 474px) {
+      flex: 0 0 100%;
+    }
   }
 
   &__icon {
@@ -128,12 +153,8 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.075);
   border-radius: 16px;
 
-  @media (max-width: $media-lg) {
-    top: -350px;
-  }
-
   @media (max-width: $media-md) {
-    top: -325px;
+    top: -95px;
   }
 
   &__title {
@@ -147,6 +168,7 @@
 .contact-map {
   position: relative;
   overflow: hidden;
+  margin-top: -64px;
 
   &::before {
     content: '';
