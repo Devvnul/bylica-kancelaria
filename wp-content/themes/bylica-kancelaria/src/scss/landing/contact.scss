@@ -1,3 +1,5 @@
+@import '../../../shared/scss/bootstrap-breakpoints.scss';
+
 $contactSectionBorderRadius: 2px;
 $contactSectionGap: 16px;
 $contactSectionShadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
@@ -30,6 +32,12 @@ $contactSectionShadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
       margin-bottom: $contactSectionGap;
       border-radius: $contactSectionBorderRadius;
       filter: $contactSectionShadow;
+
+      @media (max-width: $media-md) {
+        margin-bottom: 0;
+        filter: none;
+        border-radius: 0;
+      }
     }
 
     &__title {
@@ -41,6 +49,10 @@ $contactSectionShadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
       display: flex;
       flex-direction: row;
       gap: $contactSectionGap;
+
+      @media (max-width: $media-lg) {
+        flex-direction: column;
+      }
     }
 
     &__map-wrapper {
@@ -53,6 +65,10 @@ $contactSectionShadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
       width: 100%;
       height: 100%;
       border-radius: $contactSectionBorderRadius;
+
+      @media (max-width: $media-lg) {
+        height: 500px;
+      }
     }
 
     &__column {
@@ -60,11 +76,23 @@ $contactSectionShadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
     }
 
     &__column-1 {
-      flex: 0 0 70%;
+      flex: 1 1 70%;
+
+      @media (max-width: $media-xl) {
+        flex: 1 1 60%;
+      }
+
+      @media (max-width: $media-lg) {
+        order: 2;
+      }
     }
 
     &__column-2 {
-      flex: 0 1 30%;
+      flex: 1 1 30%;
+
+      @media (max-width: $media-xl) {
+        flex: 1 1 40%;
+      }
     }
 
     &__info-wrapper {
@@ -74,6 +102,16 @@ $contactSectionShadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
       align-items: center;
       gap: $contactSectionGap;
       align-items: center;
+
+      @media (max-width: $media-lg) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      @media (max-width: $media-md) {
+        gap: 0;
+      }
     }
 
     &__item {
@@ -86,6 +124,19 @@ $contactSectionShadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
       align-items: center;
       border-radius: $contactSectionBorderRadius;
       filter: $contactSectionShadow;
+
+      @media (max-width: $media-lg) {
+        flex: 1 1 48%;
+        width: auto;
+      }
+
+      @media (max-width: $media-md) {
+        flex: 1 1 100%;
+        width: auto;
+        border-radius: 0;
+        filter: none;
+        border-top: 1px solid var(--var__main-color);
+      }
 
       & > i {
         font-size: 40px;

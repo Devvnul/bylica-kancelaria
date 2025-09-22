@@ -1,6 +1,6 @@
 <div class="layout__page contact-page pb-0">
 
-    <div class="contact-hero">
+    <div class="contact-hero pt-4 pt-md-5">
 
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/quill.png" alt=""
             class="contact-hero__quill" />
@@ -16,7 +16,7 @@
                         Porozmawiajmy o Twoich <sup>(s)</sup>prawach
                     </h1>
 
-                    <p class="contact-hero__subtitle mt-4">
+                    <p class="contact-hero__subtitle">
                         Sprawy prawne potrafią być źródłem stresu i niepewności, ale nie musisz mierzyć się z nimi
                         samodzielnie. W
                         naszej kancelarii dbamy o to, aby każda rozmowa była prowadzona w atmosferze zaufania i
@@ -92,6 +92,15 @@
                     style="fill-rule:nonzero;" />
             </svg>
         </a>
+
+        <div class="contact-map__address-wrapper">
+            <address class="contact-map__address">
+                ul. Mickiewicza 46, <br />
+                43-300 Bielsko-Biała
+            </address>
+            <img class="contact-map__address-img"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-1.png" alt="">
+        </div>
     </section>
 
 </div>

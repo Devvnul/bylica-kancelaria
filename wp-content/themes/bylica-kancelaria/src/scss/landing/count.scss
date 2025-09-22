@@ -4,6 +4,11 @@
   & .count {
     background-color: var(--var__dark-brown);
 
+    @media (max-width: $media-md) {
+      background-color: initial;
+      margin-top: 24px;
+    }
+
     &__counters-wrapper {
       display: flex;
       justify-content: space-evenly;
@@ -29,8 +34,12 @@
       align-items: center;
       filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
 
+      @media (max-width: $media-md) {
+        background-color: var(--var__dark-brown);
+      }
+
       @media (max-width: 778px) {
-        padding: 1rem 0;
+        padding: 1rem 8px;
         min-width: initial;
       }
 
@@ -57,16 +66,16 @@
 
     &__counter-header {
       font-weight: bold;
-      font-size: 2.3rem;
+      font-size: 2.2rem;
       color: var(--var__dark-white);
       margin: 0;
 
       @media (max-width: $media-lg) {
-        font-size: 2rem;
+        font-size: 1.9rem;
       }
 
       @media (max-width: $media-md) {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
       }
     }
 

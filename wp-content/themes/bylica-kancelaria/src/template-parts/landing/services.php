@@ -1,4 +1,5 @@
 <div class="services layout__section">
+
     <h1 class="h2 services__header h__eyebrow">
         <span>Nasze specjalizacje</span>
         Wiedza, doświadczenie, skuteczność
@@ -6,16 +7,15 @@
 
     <div class="services__items-grid">
         <a href="<?php echo get_permalink(32); ?>" class="services__item">
-            <i class="service__item-icon ph-thin ph-shield-check"></i>
+            <i class="service__item-icon ph-thin ph-gavel"></i>
 
             <h2 class="h4 services__item-header">
-                Pełna obsługa firm
+                Sprawy sądowe
             </h2>
 
             <p class="services__item-description">
-                Oferujemy kompleksową obsługę firm – księgowość, kadry, płace i doradztwo podatkowe.
-                Wspieramy
-                przedsiębiorców z Bielska-Białej i całej Polski, niezależnie od formy prawnej.
+                Reprezentujemy Klientów w postępowaniach sądowych cywilnych, gospodarczych i
+                administracyjnych. Dbamy o ochronę Twoich praw i interesów na każdym etapie sprawy.
             </p>
 
             <span class="services__item-more" href="#">
@@ -23,20 +23,19 @@
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
-            <i class="services__item-bg-icon ph-thin ph-shield-check"></i>
+            <i class="services__item-bg-icon ph-thin ph-gavel"></i>
         </a>
 
         <a href="<?php echo get_permalink(65); ?>" class="services__item">
-            <i class="service__item-icon ph-thin ph-shield-check"></i>
+            <i class="service__item-icon ph-thin ph-file-text"></i>
 
             <h2 class="h4 services__item-header">
-                Księgowość
+                Umowy i pisma
             </h2>
 
             <p class="services__item-description">
-                Prowadzimy pełną i uproszczoną księgowość dla małych firm oraz JDG. Zapewniamy terminowe
-                rozliczenia i
-                zgodność z przepisami podatkowymi.
+                Tworzymy i opiniujemy umowy oraz pisma procesowe i biznesowe.
+                Zapewniamy precyzyjne zapisy chroniące Twoje interesy i minimalizujące ryzyko prawne.
             </p>
 
             <span class="services__item-more" href="#">
@@ -44,20 +43,19 @@
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
-            <i class="services__item-bg-icon ph-thin ph-shield-check"></i>
+            <i class="services__item-bg-icon ph-thin ph-file-text"></i>
         </a>
 
         <a href="<?php echo get_permalink(69); ?>" class="services__item">
-            <i class="service__item-icon ph-thin ph-shield-check"></i>
+            <i class="service__item-icon ph-thin ph-buildings"></i>
 
             <h2 class="h4 services__item-header">
                 Obsługa spółek
             </h2>
 
             <p class="services__item-description">
-                Prowadzimy księgowość spółek z o.o., komandytowych i innych. Sporządzamy sprawozdania,
-                pilnujemy
-                terminów i zapewniamy zgodność z przepisami – lokalnie i zdalnie.
+                Oferujemy kompleksową obsługę prawną spółek – od zakładania i przekształceń po bieżące
+                doradztwo. Pomagamy w sprawnym funkcjonowaniu i rozwoju biznesu.
             </p>
 
             <span class="services__item-more" href="#">
@@ -65,20 +63,19 @@
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
-            <i class="services__item-bg-icon ph-thin ph-shield-check"></i>
+            <i class="services__item-bg-icon ph-thin ph-buildings"></i>
         </a>
 
         <a href="<?php echo get_permalink(72); ?>" class="services__item">
-            <i class="service__item-icon ph-thin ph-shield-check"></i>
+            <i class="service__item-icon ph-thin ph-chats-circle"></i>
 
             <h2 class="h4 services__item-header">
-                Obsługa JDG
+                Porady prawne
             </h2>
 
             <p class="services__item-description">
-                Specjalizujemy się w księgowości dla JDG. Pomagamy w prowadzeniu KPiR, rozliczeniach VAT i
-                ZUS oraz
-                bieżącym doradztwie – wspierając przedsiębiorców z Bielska-Białej i całej Polski.
+                Udzielamy profesjonalnych porad prawnych dostosowanych do Twojej sytuacji.
+                Wyjaśniamy zawiłości przepisów i wskazujemy najlepsze rozwiązania.
             </p>
 
             <span class="services__item-more" href="#">
@@ -86,21 +83,19 @@
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
-            <i class="services__item-bg-icon ph-thin ph-shield-check"></i>
+            <i class="services__item-bg-icon ph-thin ph-chats-circle"></i>
         </a>
 
         <a href="<?php echo get_permalink(75); ?>" class="services__item">
-            <i class="service__item-icon ph-thin ph-shield-check"></i>
+            <i class="service__item-icon ph-thin ph-notebook"></i>
 
             <h2 class="h4 services__item-header">
-                Outsourcing
+                Postępowania rejestrowe
             </h2>
 
             <p class="services__item-description">
-                Powierz nam księgowość swojej firmy i zyskaj czas na rozwój biznesu. Oferujemy outsourcing
-                usług
-                księgowych dla małych i średnich firm – elastycznie, zdalnie i zgodnie z obowiązującymi
-                regulacjami.
+                Przygotowujemy i składamy wnioski do KRS oraz innych rejestrów.
+                Zapewniamy pełne wsparcie przy zakładaniu, zmianach i aktualizacji danych spółek.
             </p>
 
             <span class="services__item-more" href="#">
@@ -108,20 +103,19 @@
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
-            <i class="services__item-bg-icon ph-thin ph-shield-check"></i>
+            <i class="services__item-bg-icon ph-thin ph-notebook"></i>
         </a>
 
         <a href="<?php echo get_permalink(78); ?>" class="services__item">
-            <i class="service__item-icon ph-thin ph-shield-check"></i>
+            <i class="service__item-icon ph-thin ph-handshake"></i>
 
             <h2 class="h4 services__item-header">
-                Kadry i płace
+                Reprezentacja urzędowa
             </h2>
 
             <p class="services__item-description">
-                Prowadzimy pełną obsługę kadrowo-płacową – od sporządzania list płac, przez umowy, po
-                zgłoszenia do ZUS.
-                Obsługujemy firmy z Bielska-Białej i zdalnie na terenie całej Polski.
+                Występujemy w imieniu Klientów przed urzędami, organami administracji i instytucjami
+                publicznymi. Zadbamy, aby Twoje sprawy były prowadzone sprawnie i zgodnie z prawem.
             </p>
 
             <span class="services__item-more" href="#">
@@ -129,7 +123,8 @@
                 <i class="ph-thin ph-arrow-right"></i>
             </span>
 
-            <i class="services__item-bg-icon ph-thin ph-shield-check"></i>
+            <i class="services__item-bg-icon ph-thin ph-handshake"></i>
         </a>
     </div>
+
 </div>
