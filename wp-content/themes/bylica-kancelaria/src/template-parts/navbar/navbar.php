@@ -32,39 +32,21 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="<?php echo get_permalink(32); ?>">
+                                <a class="dropdown-item" href="<?php echo get_permalink(48); ?>">
                                     <i class="ph-fill ph-caret-right"></i>
-                                    Pełna obsługa firm
+                                    Prowadzenie spraw sądowych
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<?php echo get_permalink(52); ?>">
                                     <i class="ph-fill ph-caret-right"></i>
-                                    Księgowość
+                                    Sporządzanie umów i pism
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<?php echo get_permalink(54); ?>">
                                     <i class="ph-fill ph-caret-right"></i>
                                     Obsługa spółek
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="ph-fill ph-caret-right"></i>
-                                    Obsługa JDG
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="ph-fill ph-caret-right"></i>
-                                    Outsourcing usług księgowych
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="ph-fill ph-caret-right"></i>
-                                    Kadry i płace
                                 </a>
                             </li>
                         </ul>

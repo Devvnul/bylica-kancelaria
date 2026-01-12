@@ -104,6 +104,10 @@
       }
     }
 
+    &__good-to-know-description {
+      text-align: justify;
+    }
+
     &__list-header {
       color: var(--var__main-color);
       text-align: left;
@@ -227,6 +231,7 @@
       width: 100%;
       height: auto;
       border-radius: 40px;
+      filter: sepia(0.25);
     }
 
     &__contact-cta {
@@ -300,7 +305,7 @@
         border-top-left-radius: 20px !important;
         border-top-right-radius: 20px !important;
         border: none !important;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: bold;
         background-color: transparent !important;
 

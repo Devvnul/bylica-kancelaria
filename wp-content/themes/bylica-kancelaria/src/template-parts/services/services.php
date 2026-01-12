@@ -51,17 +51,17 @@ if ($service_id_object):
             <div class="row mt-5 pt-4">
                 <div class="col-12">
                     <div class="services__good-to-know-wrapper">
-                        <h2 class="h2 services__good-to-know-header mb-4 pb-2">Dobrze wiedzieć</h2>
-                        <p class="services__good-to-know-description">
+                        <h2 class="h2 services__good-to-know-header mb-4 pb-2">Zakres świadczonej pomocy prawnej</h2>
+                        <div class="services__good-to-know-description">
                             <?php echo $good_to_know; ?>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="row mt-5 pt-5">
                 <div class="col-12">
-                    <h2 class="h2 services__list-header mb-4 pb-2">Co oferujemy</h2>
+                    <h2 class="h2 services__list-header mb-4 pb-2">Co otrzymujesz</h2>
 
                     <div class="services__list-wrapper">
                         <ul class="services__list">

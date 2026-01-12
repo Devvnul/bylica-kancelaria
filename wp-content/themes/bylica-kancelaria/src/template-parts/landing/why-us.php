@@ -61,7 +61,7 @@
                         </li>
                     </ul>
 
-                    <a class="why-us__cta" href="#">
+                    <a class="why-us__cta" href="<?php echo get_permalink(11); ?>">
                         Poznaj nas
                         <i class="ph-thin ph-caret-right"></i>
                     </a>

@@ -6,7 +6,7 @@
     </h1>
 
     <div class="services__items-grid">
-        <a href="<?php echo get_permalink(32); ?>" class="services__item">
+        <a href="<?php echo get_permalink(48); ?>" class="services__item">
             <i class="service__item-icon ph-thin ph-gavel"></i>
 
             <h2 class="h4 services__item-header">
@@ -26,7 +26,7 @@
             <i class="services__item-bg-icon ph-thin ph-gavel"></i>
         </a>
 
-        <a href="<?php echo get_permalink(65); ?>" class="services__item">
+        <a href="<?php echo get_permalink(52); ?>" class="services__item">
             <i class="service__item-icon ph-thin ph-file-text"></i>
 
             <h2 class="h4 services__item-header">
@@ -46,7 +46,7 @@
             <i class="services__item-bg-icon ph-thin ph-file-text"></i>
         </a>
 
-        <a href="<?php echo get_permalink(69); ?>" class="services__item">
+        <a href="<?php echo get_permalink(54); ?>" class="services__item">
             <i class="service__item-icon ph-thin ph-buildings"></i>
 
             <h2 class="h4 services__item-header">
@@ -66,7 +66,7 @@
             <i class="services__item-bg-icon ph-thin ph-buildings"></i>
         </a>
 
-        <a href="<?php echo get_permalink(72); ?>" class="services__item">
+        <a href="<?php echo get_permalink(48); ?>" class="services__item">
             <i class="service__item-icon ph-thin ph-chats-circle"></i>
 
             <h2 class="h4 services__item-header">
@@ -86,7 +86,7 @@
             <i class="services__item-bg-icon ph-thin ph-chats-circle"></i>
         </a>
 
-        <a href="<?php echo get_permalink(75); ?>" class="services__item">
+        <a href="<?php echo get_permalink(52); ?>" class="services__item">
             <i class="service__item-icon ph-thin ph-notebook"></i>
 
             <h2 class="h4 services__item-header">
@@ -106,7 +106,7 @@
             <i class="services__item-bg-icon ph-thin ph-notebook"></i>
         </a>
 
-        <a href="<?php echo get_permalink(78); ?>" class="services__item">
+        <a href="<?php echo get_permalink(48); ?>" class="services__item">
             <i class="service__item-icon ph-thin ph-handshake"></i>
 
             <h2 class="h4 services__item-header">
