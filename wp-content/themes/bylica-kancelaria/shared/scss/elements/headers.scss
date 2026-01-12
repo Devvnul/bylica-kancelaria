@@ -18,4 +18,14 @@
       margin-bottom: -3px;
     }
   }
+
+  &--small {
+    & > span {
+      font-size: 0.45em;
+
+      @media (max-width: 575px) {
+        font-size: 0.4em;
+      }
+    }
+  }
 }

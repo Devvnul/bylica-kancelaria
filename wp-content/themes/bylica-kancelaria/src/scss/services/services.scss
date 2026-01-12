@@ -75,6 +75,12 @@
     &__introduction {
       max-width: 600px;
       text-align: justify;
+
+      @media (max-width: $media-lg) {
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
     &__thumbnail {
@@ -231,7 +237,6 @@
       width: 100%;
       height: auto;
       border-radius: 40px;
-      filter: sepia(0.25);
     }
 
     &__contact-cta {
@@ -243,7 +248,7 @@
       border-radius: 20px;
       display: flex;
       width: fit-content;
-      min-width: 228px;
+      min-width: 236px;
       align-items: center;
       justify-content: center;
       margin-bottom: 16px;

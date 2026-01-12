@@ -15,9 +15,9 @@ if ($service_id_object):
     <div class="services-page layout__page">
 
         <div class="services__introduction-container">
-            <img class="services__background-image"
+            <!-- <img class="services__background-image"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo-alternative-white.svg"
-                alt="Bylica - Biuro Rachunkowe (Logo)" />
+                alt="Bylica - Biuro Rachunkowe (Logo)" /> -->
 
             <div class="container">
                 <div class="row">
@@ -39,7 +39,7 @@ if ($service_id_object):
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="services__introduction-image-wrapper">
+                        <div class="services__introduction-image-wrapper mt-4 mt-lg-0">
                             <?php echo $thumbnail; ?>
                         </div>
                     </div>
@@ -48,10 +48,14 @@ if ($service_id_object):
         </div>
 
         <div class="container">
-            <div class="row mt-5 pt-4">
+            <div class="row mt-4 pt-4 mt-lg-5 pt-lg-4">
                 <div class="col-12">
                     <div class="services__good-to-know-wrapper">
-                        <h2 class="h2 services__good-to-know-header mb-4 pb-2">Zakres świadczonej pomocy prawnej</h2>
+                        <h2 class="h2 services__good-to-know-header h__eyebrow h__eyebrow--small mb-4 mb-lg-5 pb-2">
+                            <span>Kompleksowa obsługa</span>
+                            Zakres świadczonej pomocy prawnej
+                        </h2>
+
                         <div class="services__good-to-know-description">
                             <?php echo $good_to_know; ?>
                         </div>
@@ -59,9 +63,12 @@ if ($service_id_object):
                 </div>
             </div>
 
-            <div class="row mt-5 pt-5">
+            <div class="row mt-4 pt-4 mt-lg-5 pt-lg-5">
                 <div class="col-12">
-                    <h2 class="h2 services__list-header mb-4 pb-2">Co otrzymujesz</h2>
+                    <h2 class="h2 services__list-header h__eyebrow h__eyebrow--small mb-4 mb-lg-5 pb-2">
+                        <span>Praktyczne korzyści</span>
+                        Co otrzymujesz
+                    </h2>
 
                     <div class="services__list-wrapper">
                         <ul class="services__list">
@@ -77,7 +84,7 @@ if ($service_id_object):
                 </div>
             </div>
 
-            <div class="row mt-5 pt-5">
+            <div class="row mt-4 pt-4 mt-lg-5 pt-lg-5">
                 <div class="col-12">
                     <div class="services__contact-wrapper">
                         <div class="services__contact-content">
