@@ -1,6 +1,6 @@
 <div class="hero">
-    <img class="hero__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/people.png" alt="">
-    <img class="hero__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/people.png" alt="">
+    <!-- <img class="hero__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/hero.webp" alt=""> -->
+    <img class="hero__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/hero.webp" alt="">
 
     <div class="hero__color1">
         <img class="hero__stamp" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/stamp.png"

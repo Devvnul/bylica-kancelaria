@@ -12,7 +12,7 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      right: 0;
+      right: 15px;
       margin-left: auto;
       margin-right: auto;
       z-index: 5;
@@ -163,9 +163,9 @@
     &__buttons-wrapper {
       display: flex;
       flex-direction: row;
-      gap: 200px;
+      gap: 100px;
       bottom: -15px;
-      left: 40px;
+      left: -24px;
       right: 0;
       align-items: center;
       justify-content: center;

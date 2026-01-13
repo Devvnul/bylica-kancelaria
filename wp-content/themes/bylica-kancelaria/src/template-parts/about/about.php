@@ -13,7 +13,7 @@
         <div class="about__selection about__select-1 active">
             <div class="about__character-basic">
                 <div class="about__img-wrapper">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/a1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/a1.webp" alt="">
                 </div>
 
                 <div class="about__img-blur"></div>
@@ -129,7 +129,7 @@
         <div class="about__selection about__select-2 inactive">
             <div class="about__character-basic">
                 <div class="about__img-wrapper">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/a2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/a2.webp" alt="">
                 </div>
 
                 <div class="about__img-blur"></div>
