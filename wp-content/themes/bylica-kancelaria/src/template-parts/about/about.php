@@ -246,12 +246,20 @@
 
 </div>
 
+<style>
+    footer {
+        display: none;
+    }
+</style>
+
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const selections = document.querySelectorAll('.about__selection');
 
         selections.forEach((selection, idx) => {
             selection.addEventListener('click', () => {
+                if (window.innerWidth < 1400) { return; }
+
                 selections.forEach((el, i) => {
                     if (i === idx) {
                         el.classList.add('active');

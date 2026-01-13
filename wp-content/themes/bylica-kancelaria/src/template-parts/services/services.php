@@ -52,7 +52,7 @@ if ($service_id_object):
                 <div class="col-12">
                     <div class="services__good-to-know-wrapper">
                         <h2 class="h2 services__good-to-know-header h__eyebrow h__eyebrow--small mb-4 mb-lg-5 pb-2">
-                            <span>Kompleksowa obsługa</span>
+                            <span class="pb-2">Kompleksowa obsługa</span>
                             Zakres świadczonej pomocy prawnej
                         </h2>
 

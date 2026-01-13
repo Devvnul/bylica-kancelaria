@@ -1,23 +1,33 @@
+@import './../../../shared/scss/bootstrap-breakpoints.scss';
+
 .about-page {
   & .about {
     &__select-wrapper {
       display: flex;
       flex-direction: row;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
-      height: calc(100vh - 103px);
+      background-color: #dadada;
 
       transition: all 0.5s ease;
+
+      &:has(.about__selection.inactive:hover) {
+        background-color: #351a11;
+      }
+
+      @media (max-width: $media-xxl) {
+        flex-direction: column;
+      }
     }
 
     &__selection {
       flex: 1 1 50%;
       overflow: hidden;
       height: 100%;
+      min-height: 100vh;
 
       display: flex;
       flex-direction: row;
-      align-items: flex-start;
       justify-content: flex-start;
 
       transition: filter 0.5s ease, flex 0.5s ease;
@@ -34,6 +44,10 @@
         .about__img-blur {
           background-color: var(--var__dark-brown) !important;
         }
+
+        @media (max-width: $media-xxl) {
+          cursor: default;
+        }
       }
 
       &.active {
@@ -43,6 +57,11 @@
       &.inactive {
         flex: 1 1 20%;
         filter: grayscale(100%);
+
+        @media (max-width: $media-xxl) {
+          flex: 1 1 100%;
+          filter: none;
+        }
       }
 
       &.active {
@@ -56,7 +75,6 @@
         .about__character-more {
           flex: 1 1 60%;
           opacity: 1;
-          overflow-y: auto;
           max-height: 100%;
         }
 
@@ -69,16 +87,36 @@
         .about__character-more {
           flex: 0 0 0;
           opacity: 0;
+          display: none;
+
+          @media (max-width: $media-xxl) {
+            display: flex;
+            opacity: 1;
+            flex: 1 1 60%;
+          }
         }
 
         .about__character-basic {
           flex: 1 1 100%;
           justify-content: center;
+
+          @media (max-width: $media-xxl) {
+            flex: 1 1 40%;
+            justify-content: flex-start;
+          }
         }
 
         .about__img-blur {
           background-color: var(--var__dark-white);
+
+          @media (max-width: $media-xxl) {
+            background-color: var(--var__dark-brown);
+          }
         }
+      }
+
+      @media (max-width: $media-md) {
+        flex-direction: column;
       }
     }
 
@@ -91,7 +129,6 @@
     }
 
     &__character-basic {
-      height: 100%;
       display: flex;
       flex-direction: column;
       flex: 1 1 auto;
@@ -108,6 +145,13 @@
         position: relative;
         width: 100%;
       }
+
+      @media (max-width: $media-xxl) {
+        flex: 1 1 40%;
+        background-color: var(--var__dark-brown);
+        color: #fff;
+        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.4));
+      }
     }
 
     &__img-wrapper {
@@ -119,6 +163,12 @@
         width: 100%;
         height: auto;
         transition: transform 0.5s ease;
+      }
+
+      @media (max-width: $media-md) {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
 
@@ -136,7 +186,6 @@
     }
 
     &__character-more {
-      height: 100%;
       display: flex;
       flex-direction: column;
       flex: 1 1 60%;
@@ -173,6 +222,10 @@
       gap: 12px;
       position: relative;
 
+      @media (max-width: $media-md) {
+        gap: 8px;
+      }
+
       & > i {
         position: absolute;
         left: -86px;
@@ -189,6 +242,15 @@
         &::before {
           filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.3));
         }
+
+        @media (max-width: $media-md) {
+          position: static;
+          margin: 0;
+          left: 0;
+          height: 42px;
+          font-size: 26px;
+          padding: 8px;
+        }
       }
     }
 
@@ -200,10 +262,18 @@
     &__character-specializations {
       padding-left: 22px;
       list-style: circle;
+
+      @media (max-width: $media-md) {
+        padding-left: 53px;
+      }
     }
 
     &__character-education {
       padding-left: 6px;
+
+      @media (max-width: $media-md) {
+        padding-left: 53px;
+      }
     }
 
     &__character-education-item {
@@ -222,10 +292,18 @@
     &__character-experience-item {
       display: flex;
       flex-direction: column;
+
+      @media (max-width: $media-md) {
+        padding-left: 53px;
+      }
     }
 
     &__character-contact-item {
       margin: 0;
+
+      @media (max-width: $media-md) {
+        padding-left: 53px;
+      }
     }
 
     &__character-section {
@@ -233,6 +311,10 @@
       padding: 15px 30px 15px 55px;
 
       &:nth-child(even) {
+      }
+
+      @media (max-width: $media-md) {
+        padding: 15px 30px 15px 15px;
       }
     }
   }
