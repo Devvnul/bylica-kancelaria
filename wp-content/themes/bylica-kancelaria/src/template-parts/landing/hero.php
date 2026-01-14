@@ -13,8 +13,8 @@
 
     <div class="hero__border">
         <div class="hero__content">
-            <p>Skuteczne rozwiązania prawne</p>
-            <h1>Dwa umysły <span>jeden cel</span></h1>
+            <p>Łączy nas nazwisko <span>Wyróżnia efekt</span></p>
+            <h1><span class="quote-1">ADWOKAT</span><span class="quote-2">BYLICA</span></h1>
         </div>
 
         <img class="hero__border-image hero__border-image-1"

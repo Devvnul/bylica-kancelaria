@@ -56,13 +56,21 @@
         text-transform: uppercase;
         font-family: var(--font-family-body);
         font-weight: 900;
-        font-size: 80px;
+        font-size: 84px;
         color: var(--var__dark-brown);
         margin: 0;
+        margin-right: 13px;
+        margin-top: 24px;
 
-        & > span {
+        & > span.quote-1 {
+          border-top: 1px solid var(--var__dark-brown);
+          padding-right: 30px;
+        }
+
+        & > span.quote-2 {
           color: var(--var__dark-white);
-          padding-left: 24px;
+          padding-left: 36px;
+          border-top: 1px solid var(--var__dark-white);
         }
       }
 
@@ -73,8 +81,13 @@
         text-align: left;
         color: var(--var__dark-brown);
         width: fit-content;
-        padding-left: 78px;
+        padding-left: 137px;
         text-transform: uppercase;
+
+        & > span {
+          padding-left: 66px;
+          color: var(--var__dark-white);
+        }
       }
     }
 
