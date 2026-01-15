@@ -12,9 +12,17 @@
     </div>
 
     <div class="hero__border">
-        <div class="hero__content">
+        <div class="hero__content d-none d-md-block">
             <p>Łączy nas nazwisko <span>Wyróżnia efekt</span></p>
-            <h1><span class="quote-1">ADWOKAT</span><span class="quote-2">BYLICA</span></h1>
+            <h1><span class="quote-1">RADCOWIE</span><span class="quote-2">BYLICA</span></h1>
+
+            <img class="hero__column-image"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/column.webp" alt="">
+        </div>
+
+        <div class="hero__content-mobile d-flex d-md-none">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/logo-alternative-half.svg"
+                alt="">
         </div>
 
         <img class="hero__border-image hero__border-image-1"
