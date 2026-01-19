@@ -1,5 +1,5 @@
 <div class="contact layout__section mt-5"
-    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/landing/contact-1-blur.png');">
+    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/landing/contact-1-blur.webp');">
     <!-- <div class="contact layout__section mt-5"> -->
 
     <div class="contact__overlay">

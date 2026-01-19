@@ -2,10 +2,10 @@
 
     <div class="contact-hero pt-4 pt-md-5">
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/quill.png" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/quill.webp" alt=""
             class="contact-hero__quill" />
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/quill.png" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/quill.webp" alt=""
             class="contact-hero__quill-2" />
 
         <div class="container">
@@ -80,7 +80,7 @@
     </section>
 
     <section class="contact-map">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mapa.png" alt="Mapa" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/mapa.webp" alt="Mapa" />
         <a href="https://maps.app.goo.gl/b46cR1TK3ZzyJ2zL9" target="_blank" rel="noopener noreferrer"
             class="contact-map__pin-link" title="Otwórz nawigację do naszego biura">
             <svg class="contact-map__pin" width="100%" height="100%" viewBox="0 0 10655 5996" version="1.1"
@@ -99,7 +99,7 @@
                 43-300 Bielsko-Biała
             </address>
             <img class="contact-map__address-img"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-1.png" alt="">
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-1.webp" alt="">
         </div>
     </section>
 

@@ -3,12 +3,12 @@
     <img class="hero__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/hero.webp" alt="">
 
     <div class="hero__color1">
-        <img class="hero__stamp" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/stamp.png"
+        <img class="hero__stamp" src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/stamp.webp"
             alt="">
     </div>
     <div class="hero__color2">
         <img class="hero__scales"
-            src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/scales-hand.png" alt="">
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/scales-hand.webp" alt="">
     </div>
 
     <div class="hero__border">

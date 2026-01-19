@@ -4,20 +4,21 @@
             <div class="col-12 col-lg-6 order-2 order-lg-1 mt-4 pt-4 mt-sm-5 pt-sm-5 mt-lg-0 pt-lg-0">
                 <div class="why-us__images">
                     <img class="why-us__wax-seal"
-                        src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/wax3.png" alt="">
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/wax3.webp" alt="">
 
                     <div class="why-us__column">
                         <img class="why-us__image-1"
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/scales.png" alt="">
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/scales.webp" alt="">
                     </div>
                     <div class="why-us__column">
                         <div>
                             <img class="why-us__image-2"
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/hand.png" alt="">
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/hand.webp"
+                                alt="">
                         </div>
                         <div>
                             <img class="why-us__image-3"
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/gavel.png"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/gavel.webp"
                                 alt="">
                         </div>
                     </div>
