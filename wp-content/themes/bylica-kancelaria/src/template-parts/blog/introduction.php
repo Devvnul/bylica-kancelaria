@@ -13,7 +13,7 @@
             <br />
 
             <i>Nie znalazłeś odpowiedzi na swoje wątpliwości?</i>
-            <a style="color: wheat;" href="<?php echo get_permalink(55); ?>">Skontaktuj się z nami!</a>
+            <a style="color: wheat;" href="<?php echo get_permalink(10); ?>">Skontaktuj się z nami!</a>
         </p>
     </div>
 </div>
