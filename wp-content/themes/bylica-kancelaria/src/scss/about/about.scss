@@ -30,7 +30,9 @@
       flex-direction: row;
       justify-content: flex-start;
 
-      transition: filter 0.5s ease, flex 0.5s ease;
+      transition:
+        filter 0.5s ease,
+        flex 0.5s ease;
 
       &:hover {
         cursor: pointer;
@@ -136,7 +138,9 @@
       transition: flex 0.5s ease;
       overflow: hidden;
       background-color: var(--var__dark-white);
-      transition: color 0.5s ease, background-color 0.5s ease;
+      transition:
+        color 0.5s ease,
+        background-color 0.5s ease;
 
       & img {
         max-width: 100%;
@@ -191,7 +195,9 @@
       flex-direction: column;
       flex: 1 1 60%;
       opacity: 1;
-      transition: flex 0.5s ease, opacity 0.5s ease;
+      transition:
+        flex 0.5s ease,
+        opacity 0.5s ease;
       overflow: hidden;
       padding-left: 20px;
       margin-left: -20px;
