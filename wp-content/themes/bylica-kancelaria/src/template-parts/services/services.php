@@ -15,10 +15,6 @@ if ($service_id_object):
     <div class="services-page layout__page">
 
         <div class="services__introduction-container">
-            <!-- <img class="services__background-image"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo-alternative-white.svg"
-                alt="Bylica - Biuro Rachunkowe (Logo)" /> -->
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6">
@@ -39,7 +35,7 @@ if ($service_id_object):
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="services__introduction-image-wrapper mt-4 mt-lg-0">
+                        <div class="mt-4 mt-lg-0 services__introduction-image-wrapper">
                             <?php echo $thumbnail; ?>
                         </div>
                     </div>
@@ -48,10 +44,10 @@ if ($service_id_object):
         </div>
 
         <div class="container">
-            <div class="row mt-4 pt-4 mt-lg-5 pt-lg-4">
+            <div class="mt-4 mt-lg-5 pt-4 pt-lg-4 row">
                 <div class="col-12">
                     <div class="services__good-to-know-wrapper">
-                        <h2 class="h2 services__good-to-know-header h__eyebrow h__eyebrow--small mb-4 mb-lg-5 pb-2">
+                        <h2 class="services__good-to-know-header mb-4 mb-lg-5 pb-2 h2 h__eyebrow h__eyebrow--small">
                             <span class="pb-2">Kompleksowa obsługa</span>
                             Zakres świadczonej pomocy prawnej
                         </h2>
@@ -63,9 +59,9 @@ if ($service_id_object):
                 </div>
             </div>
 
-            <div class="row mt-4 pt-4 mt-lg-5 pt-lg-5">
+            <div class="mt-4 mt-lg-5 pt-4 pt-lg-5 row">
                 <div class="col-12">
-                    <h2 class="h2 services__list-header h__eyebrow h__eyebrow--small mb-4 mb-lg-5 pb-2">
+                    <h2 class="mb-4 mb-lg-5 pb-2 h2 services__list-header h__eyebrow h__eyebrow--small">
                         <span>Praktyczne korzyści</span>
                         Co otrzymujesz
                     </h2>
@@ -84,12 +80,12 @@ if ($service_id_object):
                 </div>
             </div>
 
-            <div class="row mt-4 pt-4 mt-lg-5 pt-lg-5">
+            <div class="mt-4 mt-lg-5 pt-4 pt-lg-5 row">
                 <div class="col-12">
                     <div class="services__contact-wrapper">
                         <div class="services__contact-content">
                             <h2 class="services__contact-header">Nie musisz działać sam.</h2>
-                            <p class="services__contact-description mt-4 mb-5">
+                            <p class="mt-4 mb-5 services__contact-description">
                                 Oferujemy kompleksowe wsparcie w zakresie prawa, podatków oraz usług finansowych. Skontaktuj
                                 się z nami, aby uzyskać fachową pomoc dostosowaną do Twoich potrzeb.
                             </p>
@@ -97,12 +93,12 @@ if ($service_id_object):
                             <div>
                                 <a class="services__contact-cta" href="<?php echo get_permalink(12); ?>">
                                     Umów spotkanie
-                                    <i class="ph-thin ph-caret-right"></i>
+                                    <i class="ph-caret-right ph-thin"></i>
                                 </a>
 
                                 <a class="services__contact-cta" href="<?php echo get_permalink(10); ?>">
                                     Kontakt
-                                    <i class="ph-thin ph-caret-right"></i>
+                                    <i class="ph-caret-right ph-thin"></i>
                                 </a>
                             </div>
                         </div>
@@ -115,9 +111,9 @@ if ($service_id_object):
                 </div>
             </div>
 
-            <div class="row mt-5 pt-5">
-                <div class=" col-12">
-                    <h2 class="h2 services__faq-header h__eyebrow mb-4 pb-2">
+            <div class="mt-5 pt-5 row">
+                <div class="col-12">
+                    <h2 class="mb-4 pb-2 h2 services__faq-header h__eyebrow">
                         <span>(FAQ)</span>
                         Najczęściej zadawane pytania
                     </h2>
@@ -145,7 +141,7 @@ if ($service_id_object):
 
                                         <?php echo $index + 1; ?>. <?php echo esc_html($faq['faq_question']); ?>
 
-                                        <i class="ph ph-caret-down ms-auto transition-icon"></i>
+                                        <i class="ms-auto transition-icon ph-caret-down ph"></i>
                                     </button>
                                 </h3>
 
