@@ -36,7 +36,12 @@
                     <i class="ph-thin ph-phone contact-info__icon"></i>
                     <div class="contact-info__content">
                         <h3 class="contact-info__title">Telefon</h3>
-                        <p class="contact-info__text">000 000 000</p>
+                        <p class="contact-info__text">
+                            <a href="tel:+48338168294">+48 33 816 82 94</a>
+                        </p>
+                        <p class="contact-info__text">
+                            <a href="tel:+48668342959">+48 668 342 959</a>
+                        </p>
                     </div>
                 </div>
 
@@ -44,7 +49,12 @@
                     <i class="ph-thin ph-envelope contact-info__icon"></i>
                     <div class="contact-info__content">
                         <h3 class="contact-info__title">Email</h3>
-                        <p class="contact-info__text">kontakt@kancelaria-bylica.pl</p>
+                        <p class="contact-info__text">
+                            <a href="mailto:t.bylica@kancelaria-bylica.pl">t.bylica@kancelaria-bylica.pl</a>
+                        </p>
+                        <p class="contact-info__text">
+                            <a href="mailto:a.bylica@kancelaria-bylica.pl">a.bylica@kancelaria-bylica.pl</a>
+                        </p>
                     </div>
                 </div>
 
@@ -52,7 +62,7 @@
                     <i class="ph-thin ph-map-pin contact-info__icon"></i>
                     <div class="contact-info__content">
                         <h3 class="contact-info__title">Adres</h3>
-                        <p class="contact-info__text">Mickiewicza 46<br>43-300 Bielsko-Biała</p>
+                        <p class="contact-info__text">Mickiewicza 46/1<br>43-300 Bielsko-Biała</p>
                     </div>
                 </div>
 
@@ -60,7 +70,7 @@
                     <i class="ph-thin ph-clock contact-info__icon"></i>
                     <div class="contact-info__content">
                         <h3 class="contact-info__title">Godziny otwarcia</h3>
-                        <p class="contact-info__text">pon-pt 7:00-15:30</p>
+                        <p class="contact-info__text">pon-pt 8:00-15:30</p>
                     </div>
                 </div>
             </div>
@@ -73,7 +83,7 @@
             <div class="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-7 col-xxl-6">
                 <div class="contact-form">
                     <h2 class="h2 contact-form__title">Napisz do nas</h2>
-                    <?php echo do_shortcode('[contact-form-7 id="5c93475" title="Kontakt - Formularz"]'); ?>
+                    <?php echo do_shortcode('[contact-form-7 id="74a9bc4" title="Kontakt - Formularz"]'); ?>
                 </div>
             </div>
         </div>
@@ -95,7 +105,7 @@
 
         <div class="contact-map__address-wrapper">
             <address class="contact-map__address">
-                ul. Mickiewicza 46, <br />
+                ul. Mickiewicza 46/1, <br />
                 43-300 Bielsko-Biała
             </address>
             <img class="contact-map__address-img"

@@ -1,4 +1,4 @@
-<div class="why-us layout__section">
+<div id="why-us" class="why-us layout__section">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 order-2 order-lg-1 mt-4 pt-4 mt-sm-5 pt-sm-5 mt-lg-0 pt-lg-0">
@@ -62,8 +62,8 @@
                         </li>
                     </ul>
 
-                    <a class="why-us__cta" href="<?php echo get_permalink(11); ?>">
-                        Poznaj nas
+                    <a class="why-us__cta" href="<?php echo get_permalink(12); ?>">
+                        Umów się
                         <i class="ph-thin ph-caret-right"></i>
                     </a>
                 </div>

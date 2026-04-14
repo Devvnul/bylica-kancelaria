@@ -167,6 +167,13 @@ $contactSectionShadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
     }
 
     &__item-text {
+      & a {
+        color: var(--var__dark-brown);
+
+        &:hover {
+          color: var(--var__light-brown);
+        }
+      }
     }
 
     &__cta {

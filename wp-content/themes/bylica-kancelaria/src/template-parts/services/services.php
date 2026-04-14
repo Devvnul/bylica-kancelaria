@@ -95,14 +95,12 @@ if ($service_id_object):
                             </p>
 
                             <div>
-                                <a class="services__contact-cta"
-                                    href="<?php echo get_permalink(get_page_by_path('kontakt')); ?>">
+                                <a class="services__contact-cta" href="<?php echo get_permalink(12); ?>">
                                     Umów spotkanie
                                     <i class="ph-thin ph-caret-right"></i>
                                 </a>
 
-                                <a class="services__contact-cta"
-                                    href="<?php echo get_permalink(get_page_by_path('kontakt')); ?>">
+                                <a class="services__contact-cta" href="<?php echo get_permalink(10); ?>">
                                     Kontakt
                                     <i class="ph-thin ph-caret-right"></i>
                                 </a>

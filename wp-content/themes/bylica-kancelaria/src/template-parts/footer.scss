@@ -124,6 +124,14 @@
       margin-top: 0;
       color: #fff;
       margin-top: 4px;
+
+      &:hover {
+        color: var(--var__light-brown);
+      }
+
+      &:hover span.data {
+        border-bottom: 1px solid rgba(153, 102, 51, 0.75);
+      }
     }
 
     & i {

@@ -15,9 +15,6 @@
         <div class="hero__content d-none d-md-block">
             <p>Łączy nas nazwisko <span>Wyróżnia efekt</span></p>
             <h1><span class="quote-1">RADCOWIE</span><span class="quote-2">BYLICA</span></h1>
-
-            <img class="hero__column-image"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/landing/column.webp" alt="">
         </div>
 
         <div class="hero__content-mobile d-flex d-md-none">
@@ -35,11 +32,11 @@
 
 
         <div class="hero__buttons-wrapper">
-            <a href="#" class="hero__button hero__button--primary hvr-grow-shadow">
+            <a href="#services" class="hero__button hero__button--primary hvr-grow-shadow">
                 <i class="ph-thin ph-eye"></i>
-                Zobacz więcej
+                Specjalizacje
             </a>
-            <a href="#" class="hero__button hero__button--secondary hvr-grow-shadow">
+            <a href="#why-us" class="hero__button hero__button--secondary hvr-grow-shadow">
                 <i class="ph-thin ph-users-three"></i>
                 Poznaj nas
             </a>

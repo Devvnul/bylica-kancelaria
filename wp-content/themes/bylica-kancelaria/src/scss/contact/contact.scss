@@ -140,6 +140,14 @@
     line-height: 1.4;
     margin: 0;
     text-align: center;
+
+    & > a {
+      color: var(--var__main-color);
+
+      &:hover {
+        color: var(--var__light-brown);
+      }
+    }
   }
 }
 
@@ -238,8 +246,8 @@
     color: var(--var__dark-white);
     font-size: clamp(14px, 4vw, 65px);
     line-height: clamp(24px, 5vw, 71px);
-    font-family: var(--font-family-heading);
-    font-weight: bold;
+    font-family: var(--font-family-body);
+    font-weight: 500;
     filter: drop-shadow(2px 2px 0px #000);
     pointer-events: none;
   }

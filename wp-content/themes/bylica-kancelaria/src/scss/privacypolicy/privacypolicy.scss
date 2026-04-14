@@ -1,4 +1,8 @@
 .privacy-page {
   & .privacy {
+    &__header {
+      text-align: center;
+      text-transform: uppercase;
+    }
   }
 }

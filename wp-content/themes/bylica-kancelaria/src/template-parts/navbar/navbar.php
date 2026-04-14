@@ -19,11 +19,11 @@
                         Strona główna
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(11); ?>">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="<?php echo get_permalink(8); ?>">
                         O nas
                     </a>
-                </li>
+                </li> -->
                 <li class="nav-item nav-item__dropdown">
                     <div class="dropdown">
                         <button class="navbar__dropdown-button dropdown-toggle" type="button" data-bs-toggle="dropdown"
@@ -32,19 +32,19 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="<?php echo get_permalink(48); ?>">
+                                <a class="dropdown-item" href="<?php echo get_permalink(14); ?>">
                                     <i class="ph-fill ph-caret-right"></i>
                                     Prowadzenie spraw sądowych
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo get_permalink(52); ?>">
+                                <a class="dropdown-item" href="<?php echo get_permalink(16); ?>">
                                     <i class="ph-fill ph-caret-right"></i>
                                     Sporządzanie umów i pism
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo get_permalink(54); ?>">
+                                <a class="dropdown-item" href="<?php echo get_permalink(18); ?>">
                                     <i class="ph-fill ph-caret-right"></i>
                                     Obsługa spółek
                                 </a>
@@ -53,10 +53,10 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(8); ?>">Kontakt</a>
+                    <a class="nav-link" href="<?php echo get_permalink(10); ?>">Kontakt</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-cta" href="<?php echo get_permalink(39); ?>">
+                    <a class="nav-link nav-cta" href="<?php echo get_permalink(12); ?>">
                         Umów się
                     </a>
                 </li>

@@ -32,6 +32,16 @@
     display: block;
   }
 
+  & .wpcf7-form-control-wrap[data-name='rodo-consent'] {
+    display: inline !important;
+    padding-right: 16px;
+    margin-left: -3px;
+
+    & .wpcf7-list-item {
+      display: inline !important;
+    }
+  }
+
   & .wpcf7-form-control {
     width: 100%;
     padding: 10px 12px 4px 12px;

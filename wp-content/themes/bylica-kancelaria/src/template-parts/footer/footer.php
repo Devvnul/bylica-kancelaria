@@ -12,17 +12,17 @@
                             <li>
                                 <a href="<?php echo home_url(); ?>">Strona główna</a>
                             </li>
+                            <!-- <li>
+                                <a href="<?php echo get_permalink(8); ?>">O nas</a>
+                            </li> -->
                             <li>
-                                <a href="<?php echo get_permalink(11); ?>">O nas</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo get_permalink(14); ?>">Kontakt</a>
+                                <a href="<?php echo get_permalink(10); ?>">Kontakt</a>
                             </li>
                             <li>
                                 <a href="<?php echo get_permalink(3); ?>">Polityka prywatności</a>
                             </li>
                             <li>
-                                <a href="<?php echo get_permalink(55); ?>">
+                                <a href="<?php echo get_permalink(12); ?>">
                                     Umów się
                                 </a>
                             </li>
@@ -47,10 +47,16 @@
 
                         <ul class="footer__info-contact-list">
                             <li>
-                                <a href="tel:+48602444206">
+                                <a href="tel:+48338168294">
                                     <i class="ph-thin ph-phone"></i>
                                     <span class="data">
-                                        +48 602 444 206
+                                        +48 33 816 82 94
+                                    </span>
+                                </a>
+                                <a href="tel:+48668342959">
+                                    <i class="ph-thin ph-device-mobile-speaker" style="transform: rotate(180deg);"></i>
+                                    <span class="data">
+                                        +48 668 342 959
                                     </span>
                                 </a>
                             </li>
@@ -64,7 +70,7 @@
                             </li>
                         </ul>
 
-                        <a class="footer__cta-button" href="<?php echo get_permalink(55); ?>">
+                        <a class="footer__cta-button" href="<?php echo get_permalink(12); ?>">
                             Umów spotkanie
                             <i class="ph-thin ph-caret-right"></i>
                         </a>

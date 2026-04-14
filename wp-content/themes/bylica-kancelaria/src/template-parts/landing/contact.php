@@ -68,9 +68,9 @@
                                     <div>
                                         <h3 class="h4 contact__item-title">Telefon</h3>
                                         <p class="contact__item-text">
-                                            +48 33 816 82 94
+                                            <a href="tel:+48338168294">+48 33 816 82 94</a>
                                             <br>
-                                            +48 602 444 206
+                                            <a href="tel:+48602444206">+48 602 444 206</a>
                                         </p>
                                     </div>
                                 </div>
@@ -80,9 +80,11 @@
                                     <div>
                                         <h3 class="h4 contact__item-title">E-mail</h3>
                                         <p class="contact__item-text">
-                                            j_bylica@poczta.onet.pl
+                                            <a
+                                                href="mailto:t.bylica@kancelaria-bylica.pl">t.bylica@kancelaria-bylica.pl</a>
                                             <br>
-                                            j_bylica@poczta.onet.pl
+                                            <a
+                                                href="mailto:a.bylica@kancelaria-bylica.pl">a.bylica@kancelaria-bylica.pl</a>
                                         </p>
                                     </div>
                                 </div>
