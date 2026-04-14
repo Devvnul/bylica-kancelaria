@@ -23,6 +23,14 @@
 }
 
 .contact-form {
+  a {
+    color: var(--var__light-brown);
+
+    &:hover {
+      color: var(--var__main-color);
+    }
+  }
+
   & br {
     display: none;
   }
