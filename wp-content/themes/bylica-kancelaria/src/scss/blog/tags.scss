@@ -1,0 +1,39 @@
+.blog {
+  &__tags-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--var__main-color);
+
+    & > i {
+      font-size: 30px;
+    }
+  }
+
+  &__tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  &__tag-link {
+    color: #333;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    transition: 0.1s;
+
+    &:hover {
+      color: #fff;
+      background-color: var(--var__main-color);
+    }
+  }
+
+  &__tag-link.active {
+    color: #fff;
+    background-color: var(--var__main-color);
+  }
+}

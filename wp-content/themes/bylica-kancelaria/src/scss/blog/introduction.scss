@@ -1,0 +1,68 @@
+@import '../../../shared/scss/bootstrap-breakpoints.scss';
+
+.blog {
+  &__introduction-wrapper {
+    background-color: var(--var__main-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-size: contain;
+    margin-bottom: 2rem;
+    padding: 32px;
+
+    @media (max-width: $media-lg) {
+      flex-direction: column;
+      gap: 24px;
+      padding: 16px;
+    }
+
+    & > * {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__introduction-logo-wrapper {
+    padding-right: 16px;
+
+    @media (max-width: $media-lg) {
+      padding: 0;
+    }
+  }
+
+  &__introduction-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+
+    @media (max-width: $media-lg) {
+      padding: 0;
+    }
+  }
+
+  &__introduction-logo {
+    filter: brightness(100);
+    width: 100%;
+    max-width: 550px;
+
+    @media (max-width: $media-lg) {
+      max-width: 100%;
+      width: 400px;
+    }
+  }
+
+  &__introduction-header {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    opacity: 0.95;
+  }
+
+  &__introduction-description {
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+  }
+}

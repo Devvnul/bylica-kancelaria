@@ -1,0 +1,62 @@
+.blog {
+  &__pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-items: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  &__pagination > .page-numbers {
+    color: #333;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    & > i {
+      font-size: 32px;
+    }
+
+    &:hover {
+      background-color: #113826;
+      color: #fff;
+      border-color: #113826;
+    }
+  }
+
+  &__pagination > .page-numbers:not(.next):not(.prev) {
+    border: 1px solid #333;
+    width: 32px;
+    height: 32px;
+  }
+
+  &__pagination > .current {
+    background-color: #113826;
+    color: #fff;
+    border-color: #113826;
+  }
+
+  &__pagination > .prev {
+    position: absolute;
+    left: -37px;
+    top: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid transparent;
+  }
+
+  &__pagination > .next {
+    position: absolute;
+    right: -37px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid transparent;
+  }
+}
