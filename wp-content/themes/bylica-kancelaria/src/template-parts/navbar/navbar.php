@@ -53,6 +53,9 @@
                     </div>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?php echo get_permalink(44); ?>">Blog</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="<?php echo get_permalink(10); ?>">Kontakt</a>
                 </li>
                 <li class="nav-item">

@@ -16,6 +16,9 @@
                                 <a href="<?php echo get_permalink(8); ?>">O nas</a>
                             </li> -->
                             <li>
+                                <a href="<?php echo get_permalink(44); ?>">Blog</a>
+                            </li>
+                            <li>
                                 <a href="<?php echo get_permalink(10); ?>">Kontakt</a>
                             </li>
                             <li>
