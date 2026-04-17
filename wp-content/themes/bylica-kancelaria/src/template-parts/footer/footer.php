@@ -64,10 +64,10 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:j_bylica@poczta.onet.pl">
+                                <a href="mailto:t.bylica@kancelaria-bylica.pl">
                                     <i class="ph-thin ph-envelope"></i>
                                     <span class="data email">
-                                        j_bylica@poczta.onet.pl
+                                        t.bylica@kancelaria-bylica.pl
                                     </span>
                                 </a>
                             </li>
@@ -75,7 +75,7 @@
 
                         <a class="footer__cta-button" href="<?php echo get_permalink(12); ?>">
                             Umów spotkanie
-                            <i class="ph-thin ph-caret-right"></i>
+                            <i class="ph-caret-right ph-thin"></i>
                         </a>
                     </div>
                 </div>

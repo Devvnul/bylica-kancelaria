@@ -1,9 +1,9 @@
-<div class="privacy-page layout__page mt-5 mb-5">
+<div class="mt-5 mb-5 privacy-page layout__page">
     <div class="container">
         <div class="row">
             <div class="col-12">
 
-                <h1 class="privacy__header h1 mb-5">Polityka prywatności</h1>
+                <h1 class="mb-5 privacy__header h1">Polityka prywatności</h1>
 
                 <p>
                     Polityka skierowana jest do użytkowników strony <a
@@ -17,8 +17,8 @@
                     <br><br>
                     1.1. Administrator – zgodnie z ustawą z dnia 29 sierpnia 1997 r. o ochronie danych osobowych (Dz.
                     U. z 2016r., poz. 922 ze zmianami, zwaną dalej Ustawa o ochronie danych osobowych):
-                    Biuro Rachunkowe Top Doradca Podatkowy Zofia Bylica wpisana do Centralnej Ewidencji i
-                    Informacji o Działalności Gospodarczej pod numerem NIP 5471010294, wykonująca działalność pod
+                    Kancelaria Radcy Prawnego Tomasz Bylica wpisana do Centralnej Ewidencji i
+                    Informacji o Działalności Gospodarczej pod numerem NIP 5471900326, wykonująca działalność pod
                     adresem ul. Mickiewicza 46/1, 43-300 Bielsko-Biała
                     <br><br>
                     1.2. Dane osobowe – informacje o osobie fizycznej zidentyfikowanej lub możliwej do
