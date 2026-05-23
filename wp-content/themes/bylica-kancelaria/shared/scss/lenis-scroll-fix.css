@@ -1,5 +1,5 @@
 html,
 body {
   height: auto;
-  overscroll-behavior: none;
+  /* overscroll-behavior: none; */
 }
