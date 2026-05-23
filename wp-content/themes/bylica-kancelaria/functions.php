@@ -13,9 +13,15 @@ function theme_setup()
 
 function load_styles()
 {
+    $all_css_rel_path = '/dist/css/all.min.css';
+    $all_css_abs_path = get_theme_file_path($all_css_rel_path);
+
+    // Zmienia się po każdej modyfikacji pliku
+    $all_css_ver = file_exists($all_css_abs_path) ? md5_file($all_css_abs_path) : null;
+
     wp_enqueue_style('optimized-bootstrap', get_theme_file_uri('/dist/css/optimized-bootstrap.min.css'));
     wp_enqueue_style('style', get_stylesheet_uri());
-    wp_enqueue_style('all-styles', get_theme_file_uri('/dist/css/all.min.css'));
+    wp_enqueue_style('all-styles', get_theme_file_uri($all_css_rel_path), array(), $all_css_ver);
 }
 
 function load_scripts()
